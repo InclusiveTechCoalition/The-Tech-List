@@ -1,3 +1,5 @@
+![Women Who Code Hacktoberfest 2019 banner image](hacktoberfest_readme_image.png)
+
 # The Tech List
 Our Women Who Code DFW 2019 Hacktoberfest Project!
 
