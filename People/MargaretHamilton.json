@@ -1,0 +1,140 @@
+{
+  "full_name": "Margaret Hamilton",
+  "common_name": "Margaret",
+  "pronouns": [{
+    "subject": "she",
+    "object": "her",
+    "possessive": "hers"
+  }],
+  "birth_year": 1936,
+  "description": "Margaret Hamilton is an American computer scientist, systems engineer and business owner. She was director of the Software Engineering Division of the MIT Instrumentation Laboratory.",
+  "notes": "",
+  "associations": [{
+    "type": "Business",
+    "name": "Higher Order Software",
+    "description": "Hamilton co-founded with Saydean Zeldin Higher Order Software (HOS) to further develop ideas about error prevention and fault tolerance emerging from their experience at MIT working on the Apollo program.",
+    "start_year": 1976,
+    "end_year": 1985
+  },
+    {
+      "type": "Business",
+      "name": "Hamilton Technologies",
+      "description": "At Hamilton Technologies, Hamilton created Universal Systems Language, another step in making the process of designing systems more dependable.",
+      "start_year": 1986
+    }],
+  "education": [
+    {
+      "institution": "University of Michigan",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "Michigan",
+        "region_abbreviation": "MI",
+        "metro_area": "Ann Arbor"
+      },
+      "field_of_study": "Mathematics",
+      "end_year": 1955
+    },
+    {
+      "institution": "Earlham College",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "Indiana",
+        "region_abbreviation": "IN",
+        "metro_area": "Richmond"
+      },
+      "field_of_study": "Mathematics",
+      "degree_title": "BA",
+      "end_year": 1958
+    }],
+  "employment": [{
+    "company": "MIT",
+    "location": {
+      "country_full_name": "United States",
+      "country_common_name": "US",
+      "country_abbreviation": "US",
+      "region": "Massachusetts",
+      "region_abbreviation": "MA"
+    },
+    "job": "Software Developer",
+    "notes": "Hamilton developed software for predicting weather, programming on the LGP-30 and the PDP-1 computers at Marvin Minsky's Project MAC",
+    "start_year": 1959,
+    "end_year": 1961
+  },
+    {
+      "company": "MIT Lincoln Laboratory",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "Massachusetts",
+        "region_abbreviation": "MA"
+      },
+      "job": "Software Developer",
+      "notes": "Hamilton worked on the Semi-Automatic Ground Environment (SAGE) Project, and it was her efforts on this project that made her a candidate for the position at NASA as the lead developer for Apollo flight software",
+      "start_year": 1961,
+      "end_year": 1963
+    },
+    {
+      "company": "Charles Stark Draper Laboratory",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "Massachusetts",
+        "region_abbreviation": "MA"
+      },
+      "job": "Software Engineer",
+      "notes": "Hamilton led a team credited with developing the software for Apollo and Skylab",
+      "start_year": 1963,
+      "end_year": 1972
+    }],
+  "accomplishment": [{
+    "type": "Award",
+    "description": "Hamilton received the Augusta Ada Lovelace Award by the Association for Women in Computing.",
+    "short_description": "Augusta Ada Lovelace Award",
+    "year": 1986
+  },
+    {
+      "type": "Award",
+      "description": "Hamilton was given the NASA Exceptional Space Act Award for scientific and technical contributions. The award included $37,200, the largest amount awarded to any individual in NASA's history.",
+      "short_description": "NASA Exceptional Space Act Award",
+      "year": 2003
+    },
+    {
+      "type": "Award",
+      "description": "Hamilton received the Outstanding Alumni Award by Earlham College.",
+      "short_description": "Outstanding Alumni Award",
+      "year": 2009
+    },
+    {
+      "type": "Award",
+      "description": "Hamilton received the Presidential Medal of Freedom from Barack Obama, the highest civilian honor in the United States.",
+      "short_description": "Presidential Medal of Freedom",
+      "year": 2016
+    },
+    {
+      "type": "Honorary Degree",
+      "short_description": "Honorary Doctorate from Polytechnic University of Catalonia",
+      "year": 2018
+    },
+    {
+      "type": "Award",
+      "short_description": "The Washington Award",
+      "year": 2019
+    },
+    {
+      "type": "Honorary Degree",
+      "short_description": "Honorary Doctorate from Bard College",
+      "year": 2019
+    },
+    {
+      "type": "Award",
+      "short_description": "Intrepid Lifetime Achievement Award",
+      "year": 2019
+    }
+  ]
+}
