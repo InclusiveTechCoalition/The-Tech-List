@@ -1,7 +1,5 @@
 # data-entry
 
-This app makes it easier to do the data entry to make additions to the Tech List. After you fill out the forms, it will create a database migration file which can be committed to git.
-
 ## Project setup
 ```
 npm install

@@ -1,61 +1,58 @@
-Person_schema:
 {
-    full_name: "string", //like "Grace Hopper"
-    common_name: "string", //like "Grace" or "Admiral Hopper"
-    pronouns: pronouns,
-    birth_year: 1901,
-    death_year: 1901, //optional
-    description: "string", //short blurb about a person ex: "Grace Hopper was an admiral in the US Navy and created the first compiler and compiled languages."
-    associations: [assocation]
-    education: [{ //optional
-        institution: "string",
-        location: location,
-        field_of_study: "string",
-        start_year: 1901,
-        end_year: 1901
+    "full_name": "Grace Hopper",
+    "common_name": "Grace",
+    "pronouns": "pronouns",
+    "birth_year": 1901,
+    "death_year": 1901,
+    "description": "Grace Hopper was an admiral in the US Navy and created the first compiler and compiled languages.",
+    "education": [{
+        "institution": "string",
+        "location": "location",
+        "field_of_study": "string",
+        "start_year": 1901,
+        "end_year": 1901
     }],
-    employment: [{ //optional
-        company: "string",
-        location: location,
-        job: "string",
-        start_year: 1901,
-        end_year: 1901
+    "employment": [{
+        "company": "string",
+        "location": {},
+        "job": "string",
+        "start_year": 1901,
+        "end_year": 1901
     }],
-    accomplishment: [{ //at least 1 required
-        type: "string", //invention, discovery, founded something, etc
-        description: "string", //free text description of the thing
-        short_description: "string", //same, but shorter. Maybe tweet length
-        year: 1901
+    "accomplishment": [{
+        "type": "Invention",
+        "description": "Invented Compilers and the COBOL programming language",
+        "short_description": "Invented Compilers and the COBOL programming language",
+        "year": 1901
     }],
-    other_assocations: [{ //optional
-        type: "string", //like club, owner, mentor, military, etc
-        name: "string",
-        description: "string", //short free text description of the thing
-        location: location,
-        start_year: 1901,
-        end_year: 1901
+    "other_assocations": [{
+        "type": "string",
+        "name": "string",
+        "description": "string",
+        "location": "location",
+        "start_year": 1901,
+        "end_year": 1901
     }],
-    home: [{ //optional
-        begin_year: 1901,
-        end_year: 1901,
-        location: location
-    }]
-}
-
-Location_schema:
-{
-    country_full_name: "string",
-    country_common_name: "string",
-    country_abbreviation: "string",
-    region: "string",
-    region_description: "string", //like state, province, etc
-    region_abbreviation: "string",
-    metro_area: "string" //prefer metro areas to actual cities
-}
-
-Pronoun_schema:
-{
-    subject: "string", //like "she"
-    object: "string", //like "her"
-    possessive: "string", //like "hers"
+    "home": [{
+        "begin_year": 1901,
+        "end_year": 1901,
+        "location": "location"
+    }],
+    "OtherTemplates": {
+        "Location_schema": {
+            "country_full_name": "string",
+            "country_common_name": "string",
+            "country_abbreviation": "string",
+            "region": "string",
+            "region_description": "string",
+            "region_abbreviation": "string",
+            "metro_area": "string"
+        },
+        "Pronoun_schema":
+        {
+            "subject": "string",
+            "object": "string",
+            "possessive": "string"
+        }
+    }
 }
