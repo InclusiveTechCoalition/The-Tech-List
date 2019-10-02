@@ -1,0 +1,95 @@
+{
+  "full_name": "Carol Shaw",
+  "common_name": "Carol",
+  "pronouns": [
+    {
+      "subject": "she",
+      "object": "her",
+      "possessive": "hers"
+    }
+  ],
+  "birth_year": 1955,
+  "description": "Carol Shaw was one of the first female game designers and programmers in the video game industry. She is well known for creating the game River Raid for the Atari 2600.",
+  "associations": [],
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "California",
+        "region_abbreviation": "CA"
+      },
+      "field_of_study": "Electrical Engineering and Computer Science",
+      "degree_title": "M.S.",
+      "end_year": 1977
+    }
+  ],
+  "employment": [
+    {
+      "company": "Atari",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "California",
+        "region_abbreviation": "CA"
+      },
+      "job": "Microprocessor Software Engineer",
+      "notes": "3D Tic-Tac-Toe was Carol's first game published for the Atari 2600 in 1978.",
+      "start_year": 1978,
+      "end_year": 1980
+    },
+    {
+      "company": "Tandem Computers",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "California",
+        "region_abbreviation": "CA"
+      },
+      "job": "Assembly Language Programmer",
+      "notes": "",
+      "start_year": 1980,
+      "end_year": 1982
+    },
+    {
+      "company": "Activision",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "California",
+        "region_abbreviation": "CA"
+      },
+      "job": "Game Designer and Programmer",
+      "notes": "Carol developed the hit Atari 2600 game River Raid, inspired by the 1981 arcade game Scramble.",
+      "start_year": 1982,
+      "end_year": 1984
+    },
+    {
+      "company": "Tandem Computers",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "California",
+        "region_abbreviation": "CA"
+      },
+      "job": "Assembly Language Programmer",
+      "notes": "",
+      "start_year": 1984,
+      "end_year": 1990
+    }
+  ],
+  "accomplishment": [
+    {
+      "type": "Award",
+      "description": "Carol was the recipient of The Game Awards Industry Icon Award.",
+      "short_description": "The Game Awards Industry Icon Award",
+      "year": 2017
+    }
+  ]
+}
