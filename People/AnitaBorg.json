@@ -44,7 +44,7 @@
             "country_common_name": "US",
             "country_abbreviation": "US",
             "region": "New Jersey",
-            "region_abbreviation": "NJ",
+            "region_abbreviation": "NJ"
         },
         "job": "Operating Systems Developer",
         "notes": "Anita spent four years building a fault tolerant Unix-based operating system",
