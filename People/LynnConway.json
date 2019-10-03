@@ -1,0 +1,75 @@
+{
+  "full_name": "Lynn Ann Conway",
+  "common_name": "Lynn",
+  "pronouns": [{
+    "subject": "she",
+    "object": "her",
+    "possessive": "hers"
+  }],
+  "birth_year": 1938,
+  "description": "Lynn Conway is an American computer scientist, electrical engineer, inventor, and transgender activist.",
+  "notes": "",
+  "associations": [{
+    "type": "Business",
+    "name": "IBM",
+    "description": "Lynn Conway worked at IBM in the 1960s and is credited with the invention of generalized dynamic instruction handling, a key advance used in out-of-order execution, used by most modern computer processors to improve performance",
+    "start_year": 1964,
+    "end_year": 1969
+  }],
+  "education": [
+    {
+      "institution": "MIT",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "Massachusetts",
+        "region_abbreviation": "MA",
+        "metro_area": "Cambridge"
+      },
+      "field_of_study": "Engineering"
+    },
+    {
+      "institution": "Columbia",
+      "location": {
+        "country_full_name": "United States",
+        "country_common_name": "US",
+        "country_abbreviation": "US",
+        "region": "New York",
+        "region_abbreviation": "NY",
+        "metro_area": "New York City"
+      },
+      "field_of_study": "Electrical Engineering",
+      "degree_title": "M.S.E.E.",
+      "end_year": 1963
+    }],
+  "employment": [{
+    "company": "IBM",
+    "location": {
+      "country_full_name": "United States",
+      "country_common_name": "US",
+      "country_abbreviation": "US",
+      "region": "New York",
+      "region_abbreviation": "NY"
+    },
+    "job": "Computer Architect",
+    "notes": "Conway was recruited by IBM Research in Yorktown Heights, New York in 1964, and was soon selected to join the architecture team designing an advanced supercomputer, working alongside John Cocke, Herbert Schorr, Ed Sussenguth, Fran Allen and other IBM researchers on the Advanced Computing Systems (ACS) project, inventing multiple-issue out-of-order dynamic instruction scheduling while working there.",
+    "start_year": 1964,
+    "end_year": 1969
+  }],
+  "accomplishment": [{
+    "type": "Award",
+    "short_description": "Secretary of Defense Meritorious Civilian Service Award",
+    "year": 1985
+  },
+  {
+    "type": "Award",
+    "short_description": "Computer Pioneer Award, IEEE Computer Society",
+    "year": 2009
+  },
+  {
+    "type": "Award",
+    "short_description": "Member of the National Academy of Engineering",
+    "year": 1989
+  }]
+}
