@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve ./src/index.js --open",
+    "serve": "vue-cli-service serve ./src/index.js",
     "build": "vue-cli-service build --name data-entry --entry ./src/index.js --target lib",
     "lint": "vue-cli-service lint",
     "doc:build": "npx vuedoc.md --section API --output ./README.md ./src/components/MainForm.vue",
