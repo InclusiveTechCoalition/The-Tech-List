@@ -1,0 +1,121 @@
+{
+    "full_name": "Grace Brewster Murray Hopper",
+    "common_name": "Grace",
+    "pronouns": [
+        {
+            "subject": "she",
+            "object": "her",
+            "possessive": "hers"
+        }
+    ],
+    "birth_year": 1906,
+    "death_year": 1992,
+    "description": "Grace Hopper was an American computer scientists and United States Navy rear admiral.",
+    "notes": "Grace Hopper was a pioneer of computer programming who invented one of the first linkers. She popularized the idea of machine-independent programming languages, which led to the development of COBOL, an early high-level programming language still in use today. In recognition for her lifetime achievements, Grace Hopper received over 40 honorary degrees from universities across the world.",
+    "education": [
+        {
+            "institution": "Vassar College",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "New York",
+                "region_abbreviation": "NY",
+                "metro_area": "Poughkeepsie"
+            },
+            "field_of_study": "Mathematics",
+            "degree_title": "BS"
+        },
+        {
+            "institution": "Vassar College",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "New York",
+                "region_abbreviation": "NY",
+                "metro_area": "Poughkeepsie"
+            },
+            "field_of_study": "Physics",
+            "degree_title": "BS"
+        },
+        {
+            "institution": "Yale University",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "Connecticut",
+                "region_abbreviation": "CT",
+                "metro_area": "New Haven"
+            },
+            "field_of_study": "Mathematics",
+            "degree_title": "M.S."
+        },
+        {
+            "institution": "Yale University",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "Connecticut",
+                "region_abbreviation": "CT",
+                "metro_area": "New Haven"
+            },
+            "field_of_study": "Mathematics",
+            "degree_title": "Ph.D."
+        }
+    ],
+    "employment": [
+        {
+            "company": "Vassar College",
+            "job": "Professor of Mathematics",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "New York",
+                "region_abbreviation": "NY",
+                "metro_area": "Poughkeepsie"
+            },
+            "start_year": 1931,
+            "end_year": 1943,
+            "notes": "Grace Hopper was promoted to associate professor in 1941. In 1943, she obtained a leave of absense in order to serve in the United States Navy Reserve."
+        },
+        {
+            "company": "United States Navy Reserve",
+            "job": "Various",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "Massachusetts",
+                "region_abbreviation": "MA",
+                "metro_area": "Cambridge"
+            },
+            "start_year": 1944,
+            "end_year": 1986,
+            "notes": "Grace Hopper graduated first in her class from the Naval Reserve Midshipmen's School. She was placed into the Harvard Computation Lab after graduation where she served on the Mark I computer programming staff headed by Howard H. Aiken. Hopper and Aiken co-authored three papers on the Mark I, also known as the Automatic Sequence Controlled Calculator. From 1967 to 1977, Hopper served as the director of the Navy Programming Languages Group in the Navy's Office of Information Systems Planning and was promoted to the rank of captain in 1973. She developed validation software for COBOL and its compiler as part of a COBOL standardization proram for the entire Navy. Hopper temporarily retired two times over the course of her career (in 1966 and 1971), but was recalled each time. In 1986, she permanently retired with the rank of rear admiral."
+        },
+        {
+            "company": "Eckert-Mauchly Computer Corporation/Remington Rand",
+            "job": "Senior Mathematician",
+            "start_year": 1949,
+            "notes": "Grace Hopper joined the team developing the UNIVAC I, the first known large-scale electronic computer. She also proposed and pushed for the creation of human-readable computer languages, something her colleagues rejected for 3 years. Her first paper on the subject of compilers was published in 1952. Her work eventually led to the development of COBOL, a human-readable programming language still in use today. In 1954, Hopper was named the company's first director of automatic programming."
+        }
+    ],
+    "accomplishment": [
+        {
+            "type": "Award",
+            "short_description": "Defense Distinguished Service Medal",
+            "description": "The highest non-combat decoration awarded by the Department of Defense",
+            "year": 1986
+        },
+        {
+            "type": "Building Namesake",
+            "short_description": "Hopper Hall",
+            "description": "Hopper hall's completion marked the first military academy building named after a woman.",
+            "year": 2019
+        }
+    ]
+}

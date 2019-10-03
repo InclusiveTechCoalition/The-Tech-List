@@ -1,0 +1,84 @@
+{
+    "full_name": "Anita Borg",
+    "common_name": "Anita",
+    "pronouns": [{
+        "subject": "she",
+        "object": "her",
+        "possessive": "hers"
+    }],
+    "birth_year": 1949,
+    "description": "Anita Borg was an American computer scientist. She founded the Institute for Women and Technology and the Grace Hopper Celebration of Women in Computing.",
+    "notes": "Anita passionately believed in working for greater representation of technical women. Her goal was to have 50% representation for women in computing by 2020. She strove for technical fields to be places where women would be equally represented at all levels of the pipeline, and where women could impact, and benefit from, technology.",
+    "associations": [{
+        "type": "Celebration", 
+        "name": "Grace Hopper Celebration of Women in Computing",
+        "description": "The Grace Hopper Celebration of Women in Computing (GHC) is a series of conferences designed to bring the research and career interests of women in computing to the forefront. It is the world's largest gathering of women in computing.", 
+        "start_year": 1994,
+        "end_year": 2003
+    },
+    {
+        "type": "Non-Profit", 
+        "name": "AnitaB.org",
+        "description": "AnitaB.org (formerly Anita Borg Institute for Women and Technology, and Institute for Women in Technology) is a global nonprofit organization based in Belmont, California. Founded by computer scientists Anita Borg, PhD and Telle Whitney, PhD, the institute’s primary aim is to recruit, retain, and advance women in technology.", 
+        "start_year": 1997,
+        "end_year": 2003
+    }],
+    "education": [{ 
+        "institution": "New York University",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "New York",
+            "region_abbreviation": "NY",
+            "metro_area": "New York City" 
+        },
+        "field_of_study": "Computer Science",
+        "degree_title": "PhD",
+        "end_year": 1981
+    }],    
+    "employment": [{ 
+        "company": "Auragen Systems Corp.",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "New Jersey",
+            "region_abbreviation": "NJ"
+        },
+        "job": "Operating Systems Developer",
+        "notes": "Anita spent four years building a fault tolerant Unix-based operating system",
+        "start_year": 1981,
+        "end_year": 1985
+    }],
+    "accomplishment": [{ 
+        "type": "Award", 
+        "description": "Anita received this award for her work on behalf of women in the computing field in 1995.", 
+        "short_description": "Augusta Ada Lovelace Award", 
+        "year": 1995
+    },
+    {
+        "type": "Induction", 
+        "description": "The ACM is an umbrella organization for academic and scholarly interests in computer science.", 
+        "short_description": "Fellow of the Association for Computing Machinery", 
+        "year": 1996
+    },
+    {
+        "type": "Appointment", 
+        "description": "Anita was charged with recommending strategies to the nation for increasing the breadth of participation fields for women.", 
+        "short_description": "Presidential Commission on the Advancement of Women and Minorities in Science, Engineering, and Technology", 
+        "year": 1999
+    },
+    {
+        "type": "Award", 
+        "description": "The Heinz Awards each year recognize outstanding individuals for their innovative contributions in five areas: Arts and Humanities; Environment; Human Condition; Public Policy; and Technology, the Economy and Employment.", 
+        "short_description": "8th Annual Heinz Award for Technology, the Economy and Employment.", 
+        "year": 2002
+    },
+    {
+        "type": "Honorary Degree", 
+        "short_description": "Doctor of Science and Technology from Carnegie Mellon University", 
+        "year": 2002
+    }]
+}
+
