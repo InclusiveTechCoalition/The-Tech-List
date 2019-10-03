@@ -1,0 +1,64 @@
+{
+    "full_name": "Adele Goldberg",
+    "common_name": "Adele",
+    "pronouns": [{
+        "subject": "she",
+        "object": "her",
+        "possessive": "hers"
+    }],
+    "birth_year": 1945,
+    "description": "Adele Goldberg is an American computer scientist who participated in developing th programming language Smalltalk-80 and various concepts related to object-oriented programming.",
+    "notes": "In 1977 Adele and Alan Kay wrote an influential article 'Personal Dynamic Media,' which predicted a world where ordinary people would use notebook computers to exchange, modify and redistribute peronal media. The Computer History Museum in California houses a collection of Goldberg's working documents, reports, publications and videotapes related to her work on the development of Smalltalk.",
+    "associations": [{
+        "type": "Non-Profit", 
+        "name": "Association for Computing Machinery",
+        "description": "From 1984 to 1986, Adele served as president of the ACM, the world's largest scientific and educational computing society.", 
+        "start_year": 1984,
+        "end_year": 2019
+    }],
+    "education": [{ 
+        "institution": "University of Chicago",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Illinois",
+            "region_abbreviation": "IL",
+            "metro_area": "Chicago" 
+        },
+        "field_of_study": "Information Science",
+        "degree_title": "PhD",
+        "end_year": 1973
+    }],    
+    "employment": [{ 
+        "company": "Xerox Palo Alto Research Center (PARC)",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "California",
+            "region_abbreviation": "CA"
+        },
+        "job": "Manager of the System Concepts Laboratory",
+        "notes": "Adele helped develop Smalltalk-80, which both developed the object-oriented approach of Simula 67 and introduced a programming environment of overlapping windows on graphic display screens. Not only was Smalltalk's innovative format simpler to use, it was also customizable and objects could be transferred among applications with minimal effort. Goldberg and Kay also were involved in the development of design templates, forerunners of the design patterns commonly used in software design.",
+        "start_year": 1973,
+        "end_year": 1988
+    }],
+    "accomplishment": [{ 
+        "type": "Award", 
+        "description": "Adele was awarded the ACM Software Systems Award for seminal contributions to object-oriented programming and related programming techniques.", 
+        "short_description": "Adele was awarded the ACM Software Systems Award.", 
+        "year": 1987
+    },
+    {
+        "type": "Induction", 
+        "short_description": "Adele was inducted as a Fellow of the Association for Computing Machinery.", 
+        "year": 1994
+    },
+    {
+        "type": "Award", 
+        "short_description": "Adele received PC Magazine's Lifetime Achievement Award.", 
+        "year": 1996
+    }]
+}
+
