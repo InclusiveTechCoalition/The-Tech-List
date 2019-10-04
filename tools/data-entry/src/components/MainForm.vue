@@ -28,7 +28,7 @@
         </v-row>
         <v-row>
           <v-textarea v-model="description"
-                      :label="`What makes ${pronouns.object ? pronouns.object : 'them'} notable?`"
+                      :label="`What makes ${pronouns.object || 'them'} notable?`"
                       required></v-textarea>
         </v-row>
         <v-row>
@@ -43,7 +43,7 @@
         </v-row>
         <v-row>
           <v-btn color="primary" fab @click.stop="accomplishment.push(factoryAccomplishment())">
-            <v-icon>mdi-note-plus-icon</v-icon>
+            <v-icon>mdi-pencil-outline</v-icon>
           </v-btn>
         </v-row>
       </v-container>
@@ -56,10 +56,6 @@
 
   function factoryPronoun(s, o, p) {
     return {subject: s, object: o, possessive: p}
-  }
-
-  function mergeEventData(data, event){
-    return {data, ...event};
   }
 
   export default {
@@ -141,6 +137,9 @@
           {text: 'they/them', value: factoryPronoun('they', 'them', 'their')},
           {text: 'other', value: factoryPronoun('', '', '')},
         ]
+      },
+      mergeEventData: (data, event) => {
+        return {data, ...event};
       }
     }
   }

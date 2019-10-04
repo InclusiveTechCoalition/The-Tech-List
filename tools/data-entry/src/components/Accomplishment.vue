@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h2>{{`${year} ${type}`}}</h2>
+    <h3>{{(year || type) ? `${type} (${year})` : '...'}}</h3>
     <v-form>
       <v-row>
         <v-col>
