@@ -1,0 +1,77 @@
+{
+  "full_name": "Hedwig Eva Maria Kiesler",
+  "common_name": "Hedy Lamarr",
+  "pronouns": [{
+      "subject": "she",
+      "object": "her",
+      "possessive": "hers"
+  }],
+  "birth_year": 1914,
+  "description": "Hedy Lamarr was an Austrian born actress and inventor. She created many things, but the most prominent is what was called the Secret Communication System - a system utilizing frequency hopping to prevent radio signals from being intercepted.",
+  "notes": "Hedy invented more than just the Secret Communication System. Some of her other inventions included an upgraded stoplight and a dissolvable tablet that created a carbonated beverage. ",
+  "associations": [{
+      "type": "", 
+      "name": "",
+      "description": "", 
+      "start_year": ,
+      "end_year": 
+  }],
+  "education": [{ 
+      "institution": "",
+      "location": {
+          "country_full_name": "",
+          "country_common_name": "",
+          "country_abbreviation": "",
+          "region": "",
+          "region_abbreviation": "",
+          "metro_area": "" 
+      },
+      "field_of_study": "",
+      "degree_title": "",
+      "end_year": 
+  }],    
+  "employment": [{ 
+      "company": "",
+      "location": {
+          "country_full_name": "",
+          "country_common_name": "",
+          "country_abbreviation": "",
+          "region": "",
+          "region_abbreviation": ""
+      },
+      "job": "",
+      "notes": "",
+      "start_year": ,
+      "end_year": 
+  }],
+  "accomplishment": [{ 
+      "type": "", 
+      "description": "", 
+      "short_description": "", 
+      "year": 
+  },
+  {
+      "type": "", 
+      "description": "", 
+      "short_description": "", 
+      "year": 
+  },
+  {
+      "type": "", 
+      "description": "", 
+      "short_description": "", 
+      "year": 
+  },
+  {
+      "type": "", 
+      "description": "", 
+      "short_description": "", 
+      "year": 
+  },
+  {
+      "type": "", 
+      "short_description": "", 
+      "year": 
+  }]
+}
+
