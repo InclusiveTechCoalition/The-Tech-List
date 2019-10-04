@@ -17,6 +17,5 @@ From October 1st to October 11th, we'll be accepting PRs into our [data reposito
 - We want this list to feature under represented people, not just women. That includes people of color, disabled people, and lgbtq+ people.
 * Make sure you choose a person who does not have an [*Assigned* label in issues](https://github.com/WWCodeDFW/The-Tech-List/issues)!
 
-
 ## Phase 2 - Competition
 From October 11th to October 31st, we'll be breaking out into small groups (or you can fly solo!) to use this data to build independent projects. At the end of Hacktoberfest, qualifying projects will be entered into the WWC contest, and the winners will win a prize!
