@@ -14,7 +14,8 @@ From October 1st to October 11th, we'll be accepting PRs into our [data reposito
 
 ### How To Contribute Data
 * Submit your information in the form of JSON to our repository. 
-* Make sure you sign up for the person(s) you are researching via the #hacktoberfest slack channel!
+- We want this list to feature under represented people, not just women. That includes people of color, disabled people, and lgbtq+ people.
+* Make sure you choose a person who does not have an [*Assigned* label in issues](https://github.com/WWCodeDFW/The-Tech-List/issues)!
 
 ## Phase 2 - Competition
 From October 11th to October 31st, we'll be breaking out into small groups (or you can fly solo!) to use this data to build independent projects. At the end of Hacktoberfest, qualifying projects will be entered into the WWC contest, and the winners will win a prize!
