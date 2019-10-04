@@ -1,0 +1,64 @@
+{
+    "full_name": "Dorothy Vaughan",
+    "common_name": "Dorothy",
+    "pronouns": [{
+        "subject": "she",
+        "object": "her",
+        "possessive": "hers"
+    }],
+    "birth_year": 1910,
+    "description": "Dorothy Vaughan was an African American mathematician and human computer who worked for the National Advisory Committee for Aeronautics (NACA), and NASA, at Langley Research Center in Hampton, Virginia",
+    "notes": "In 1949 she was the first African American woman to supervise a group at the West Area Supervisor center where she was later officially promoted to the position. With the introduction of computers quickly arising, she taught herself and her staff FORTRAN. She later headed the programming section of the Analysis and Computation Division (ACD) at Langley",
+    "education": [{ 
+        "institution": "Wilberforce University",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Wilberforce",
+            "region_abbreviation": "OH",
+            "metro_area": "Ohio" 
+        },
+        "field_of_study": "Mathematics",
+        "degree_title": "BA",
+        "end_year": 1929
+    }],    
+    "employment": [{ 
+        "company": "Langley Research Center",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Hampton",
+            "region_abbreviation": "VA"
+        },
+        "job": "Mathematician and Programmer",
+        "notes": "Vaughan was assigned to the West Area Computing, a segregated unit, which consisted of only African Americans. This segregated group consisted of African-American women who made complex mathematical calculations by hand, using tools of the time. Seeing that machine computers were going to be the future, she taught the women programming languages and other concepts to prepare them for the transition. Vaughan continued after NASA, the successor agency, was established in 1958. When NACA became NASA, segregated facilities, including the West Computing office, were abolished.",
+        "start_year": 1943,
+        "end_year": 1971
+    }],
+    "accomplishment": [{ 
+        "type": "Award", 
+        "description": "Dorothy was awarded Class Valedictorian", 
+        "short_description": "Beechurst High School", 
+        "year": 1925
+    },
+    {
+        "type": "Award", 
+        "description": "West Virginia Conference of the A.M.E. Sunday School Convention", 
+        "short_description": "Vaughan received a Full Tuition Scholarship", 
+        "year": 1925
+    },
+    {
+        "type": "Honorary Degree", 
+        "description": "Wilberforce University", 
+        "short_description": "Mathematician Graduate Cum Laude", 
+        "year": 1929
+    },
+    {
+        "type": "Honor", 
+        "description": "Head of National Advisory Committee of Aeronautics' Segregated West Computing Unit", 
+        "year": 2002
+    }]
+}
+
