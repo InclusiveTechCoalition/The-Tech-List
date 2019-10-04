@@ -1,0 +1,94 @@
+{
+    "full_name": "Helen Greiner",
+    "common_name": "Helen",
+    "pronouns": [{
+        "subject": "she",
+        "object": "her",
+        "possessive": "hers"
+    }],
+    "birth_year": 1967,
+    "description": "Helen Greiner is a co-founder of iRobot and former CTO of CyPhyWorks, a start-up company specializing in small multi-rotor drones for the consumer, commercial and military markets.",
+    "notes": "In 1990, along with Rodney Brooks and Colin Angle, Greiner co-founded iRobot, a robotics company headquartered in Bedford, Massachusetts, which delivers robots into the consumer market. She co-designed the first version of the iRobot Roomba.",
+    "associations": [],
+    "education": [{ 
+        "institution": "Massachusetts Institute of Technology",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Massachusetts",
+            "region_abbreviation": "MA"
+        },
+        "field_of_study": "Mechanical Engineering",
+        "degree_title": "BE",
+        "end_year": 1989
+    },
+    {
+        "institution": "Massachusetts Institute of Technology",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Massachusetts",
+            "region_abbreviation": "MA"
+        },
+        "field_of_study": "Computer Science",
+        "degree_title": "SM",
+        "end_year": 1990
+    }],        
+    "employment": [{ 
+        "company": "iRobot",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Massachusetts",
+            "region_abbreviation": "MA"
+        },
+        "job": "Co-Founder and President",
+        "notes": "During her tenure, iRobot released the Roomba, the PackBot and SUGV military robots. Greiner built a culture of practical innovation and delivery that led to the deployment of 6,000 PackBots with the United States armed forces. In addition, Greiner headed up iRobot's financing projects, raising $35M in venture capital for a $75M initial public offering.",
+        "start_year": 1990,
+        "end_year": 2004
+    },
+    {  
+        "company": "CyPhy Works",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Massachusetts",
+            "region_abbreviation": "MA"
+        },
+        "job": "Founder and CTO",
+        "notes": "Greiner founded CyPhy Works, a drone company that delivers aerial platforms to defense and commercial markets.",
+        "start_year": 2008,
+        "end_year": 2017
+    },
+    {  
+        "company": "United States Army",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+
+        },
+        "job": "Advisor",
+        "notes": "Greiner is currently working as a “highly qualified expert” for a government agency that fosters technological innovation to benefit the U.S. Army.",
+        "start_year": 2018
+    }],
+    "accomplishment": [{ 
+        "type": "Award", 
+        "short_description": "Greiner received the 2008 Anita Borg Institute Women of Vision Award for Innovation for her work at iRobot.", 
+        "year": 2008
+    },
+    {
+        "type": "Induction", 
+        "short_description": "Greiner was inducted into the Women in Technology International Hall of Fame.", 
+        "year": 2007
+    },
+    {
+        "type": "Award", 
+        "short_description": "Greiner received the Pioneer Award from the Association for Unmanned Vehicle Systems International(AUVSI).", 
+        "year": 2006
+    }]
+}
