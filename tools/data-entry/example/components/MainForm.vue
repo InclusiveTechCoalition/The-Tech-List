@@ -36,37 +36,17 @@
           <v-text-field v-model="birth_year" label="Death Year"/>
         </v-row>
       </v-container>
-      <v-container>
-        <h2>Accomplishments</h2>
-        <v-row>
-          <Accomplishment v-for="item in accomplishment" v-bind="item" v-on:data="mergeEventData(item, $event)"/>
-        </v-row>
-        <v-row>
-          <v-btn color="primary" fab @click.stop="accomplishment.push(factoryAccomplishment())">
-            <v-icon>mdi-note-plus-icon</v-icon>
-          </v-btn>
-        </v-row>
-      </v-container>
     </v-form>
   </v-container>
 </template>
 
 <script>
-  import Accomplishment from "./Accomplishment";
-
   function factoryPronoun(s, o, p) {
     return {subject: s, object: o, possessive: p}
   }
 
-  function mergeEventData(data, event){
-    return {data, ...event};
-  }
-
   export default {
     name: 'MainForm',
-    components: {
-      Accomplishment
-    },
     data: () => ({
       valid: false,
       full_name: '',
@@ -78,7 +58,7 @@
       education: [],
       employment: [],
       accomplishment: [],
-      other_assocations: [],
+      other_associations: [],
       home: []
     }),
     methods: {
@@ -87,7 +67,7 @@
           type: '',
           description: '',
           short_description: '',
-          year: null
+          year: 1901
         }
       },
       factoryAssociation: () => {
