@@ -12,7 +12,7 @@
     "associations":[{    
     "type": "Recognition", 
     "name": "Her first recognition",    
-    "description": "Spear has been recognised, by [statisticians](https://en.wikipedia.org/wiki/Statisticians) [Edward Tufte](https://en.wikipedia.org/wiki/Edward_Tufte) and [Hadley Wickham](https://en.wikipedia.org/wiki/Hadley_Wickham) among others, as having presented the first formulation of the box plot. This was shown in *Charting Statistics* , on page 166 shows a diagram of a range bar chart featuring an interquartile range box. The box plot was further developed seventeen years later by American mathematician John Tukey."  
+    "description": "Spear has been recognised, by [statisticians] Edward Tufte and [Hadley Wickham among others, as having presented the first formulation of the box plot. This was shown in *Charting Statistics* , on page 166 shows a diagram of a range bar chart featuring an interquartile range box. The box plot was further developed seventeen years later by American mathematician John Tukey.",
     "start_year": 1952, 
     "end_year": 1969    
     },
