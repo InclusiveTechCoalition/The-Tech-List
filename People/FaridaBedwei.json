@@ -1,0 +1,68 @@
+{
+  "full_name": "Farida Nana Efua Bedwei",
+  "common_name": "Farida Bedwei",
+  "pronouns": [
+    {
+      "subject": "she",
+      "object": "her",
+      "possessive": "hers"
+    }
+  ],
+  "birth_year": 1979,
+  "description": "Farida Nana Efua Bedwei is a Ghanaian software engineer and cofounder of Logiciel, a fin-tech company in Ghana. Farida Bedwei has built mobile and enterprise applications, and is also known for her knowledge of software architecture, and deploying mobile services, particularly for banking applications.",
+  "notes": "Diagnosed with cerebral palsy at the age of one. In 2013, South Africa's CEO Magazine named Bedwei the most influential woman in business and government in Africa for the financial sector.",
+  "employment": [
+    {
+      "company": "Logiciel",
+      "location": {
+        "country_full_name": "Ghana",
+        "country_common_name": "Ghana",
+        "country_abbreviation": "GH",
+        "region": "Africa",
+        "region_abbreviation": "AF"
+      },
+      "job": "Co-founder and CEO",
+      "notes": "she led the creation and successful implementation of gKudi, a web-based (cloud) banking software suite for the micro-finance industry, used by 130 micro-finance institutions nationwide.",
+      "start_year": 2011
+    },
+    {
+      "company": "Rancard Solutions Ltd",
+      "location": {
+        "country_full_name": "Ghana",
+        "country_common_name": "Ghana",
+        "country_abbreviation": "GH",
+        "region": "Africa",
+        "region_abbreviation": "AF"
+      },
+      "job": "Senior Software Architect",
+      "start_year": 2001,
+      "end_year": 2010
+    }
+  ],
+  "accomplishment": [
+    {
+      "type": "award",
+      "description": "Special Award by President Abdel Fattah El SISI",
+      "short_description": "Special Award",
+      "year": 2018
+    },
+    {
+      "type": "award",
+      "description": "Winner of Most Influential Women in Business and Government Award Financial Sector",
+      "short_description": "Most Influential Women",
+      "year": 2013
+    },
+    {
+      "type": "award",
+      "description": "Special Award by President John Mahama",
+      "short_description": "Special Award",
+      "year": 2012
+    },
+    {
+      "type": "award",
+      "description": "Legacy and Legacy Ideas Award – Winner of the Maiden Award",
+      "short_description": "Winner of the Maiden Award",
+      "year": 2011
+    }
+  ]
+}
