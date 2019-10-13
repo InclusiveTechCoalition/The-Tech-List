@@ -1,0 +1,87 @@
+{
+   "full_name":"Parisa Tabriz",
+   "common_name":"Parisa",
+   "pronouns":[
+      {
+         "subject":"she",
+         "object":"her",
+         "possessive":"hers"
+      }
+   ],
+   "birth_year":1983,
+   "description":"Parisa Tabriz is a computer security expert.",
+   "notes":"Parisa has worked at Google for over a decade, dedicated to closing security holes and keeping the Chrome browser safe across all devices. She has also been a consultant to the White House U.S. Digital Service and has lectured widely on cyber security and encryption. Parisa also founded Our Security Advocates Conference in 2018 due to a RSA Conference having only one non-male speaker.",""
+   "education":[
+      {
+         "institution":"University of Illinois, Urbana-Champaign",
+         "location":{
+            "country_full_name":"United States",
+            "country_common_name":"US",
+            "country_abbreviation":"US",
+            "region":"Illinois",
+            "region_abbreviation":"IL",
+            "metro_area":"Champaign"
+         },
+         "field_of_study":"Computer Science",
+         "degree_title":"BA"
+      },
+      {
+         "institution":"University of Illinois, Urbana-Champaign",
+         "location":{
+            "country_full_name":"United States",
+            "country_common_name":"US",
+            "country_abbreviation":"US",
+            "region":"Illinois",
+            "region_abbreviation":"IL",
+            "metro_area":"Champaign"
+         },
+         "field_of_study":"Computer Science",
+         "degree_title":"MA"
+      }
+   ],
+   "employment":[
+      {
+         "company":"Google",
+         "job":"Various",
+         "location":{
+            "country_full_name":"United States",
+            "country_common_name":"US",
+            "country_abbreviation":"US",
+            "region":"California",
+            "region_abbreviation":"CA",
+            "metro_area":"Mountain View"
+         },
+         "start_year":2007,
+         "notes":"Parisa is Google's Browser Boss, formerly Security Princess, and is responsible for the Chrome browser while mentoring staff on security and privacy issues. She is also part of Project Zero, a group of security analysts employed By Google."
+      },
+      {
+         "company":"United States Digital Service",
+         "job":"Consultant",
+         "location":{
+            "country_full_name":"United States",
+            "country_common_name":"US",
+            "country_abbreviation":"US",
+            "region":"Washington, D.C.",
+            "region_abbreviation":"DC",
+            "metro_area":"Washington, D.C."
+         },
+         "start_year":2014,
+         "end_year":2016,
+         "notes":"Parisa advised the Executive Office of the President on best tech practices to enhance network and software security."
+      }
+   ],
+   "accomplishment":[
+      {
+         "type":"Award",
+         "short_description":"WIRED’s Next List",
+         "description":"WIRED magazine included Parisa as one of 20 tech visionaries who are creating the future.",
+         "year": 2017
+      },
+      {
+         "type":"Award",
+         "short_description":"Forbes 30 Under 30",
+         "description":"Forbes magazine included her in the Top 30 People Under 30 To Watch in the Technology Industry.",
+         "year": 2012
+      }
+   ]
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "Hedwig Eva Maria Kiesler",
+  "common_name": "Hedy Lamarr",
+  "pronouns": [
+    {
+      "subject": "she",
+      "object": "her",
+      "possessive": "hers"
+    }
+  ],
+  "birth_year": 1914,
+  "description": "Hedy Lamarr was an Austrian born actress and inventor. She created many things, but the most prominent is what was originally called the Secret Communication System but is now known as Spread Spectrum Technology",
+  "notes": "With no formal education, Lamarr invented many things, including more than just Spread Spectrum technology. Some of her other inventions included an upgraded stoplight and a dissolvable tablet that created a carbonated beverage.",
+  "employment": [
+    {
+      "company": "Sascha-Film",
+      "location": {
+        "country_full_name": "Republic of Austria",
+        "country_common_name": "Austria",
+        "country_abbreviation": "AU",
+        "region": "Vienna",
+        "region_abbreviation": "VIE"
+      },
+      "job": "actress",
+      "notes": "Lamar started at Sascha-Film as a script girl, then later became an extra, then finally an actress",
+      "start_year": 1930,
+      "end_year": 1933
+    },
+    {
+      "company": "MGM",
+      "location": {
+        "country_full_name": "United States of America",
+        "country_common_name": "United States",
+        "country_abbreviation": "US",
+        "region": "Los Angeles",
+        "region_abbreviation": "LA"
+      },
+      "job": "actress",
+      "start_year": 1938,
+      "end_year": 1966
+    }
+  ],
+  "accomplishment": [
+    {
+      "type": "award",
+      "description": "Lamarr was awarded Most Promising New Actress in 1939",
+      "short_description": "Most Promising New Actress",
+      "year": 1939
+    },
+    {
+      "type": "award",
+      "description": "Lamarr was awarded the title of 10th best actress for her role in Samson and Delilah",
+      "short_description": "10th Best Actress",
+      "year": 1951
+    },
+    {
+      "type": "award",
+      "description": "Electronic Frontier Foundation's Pioneer Award",
+      "short_description": "An annual award presented to people who have made significant contributions to the empowerment of individuals in using computers",
+      "year": 1997
+    },
+    {
+      "type": "induction",
+      "description": "National Inventors Hall of Fame",
+      "short_description": "Lamar was inducted into the National Inventors Hall of Fame for her frequency hopping technology",
+      "year": 2014
+    }
+  ]
+}
