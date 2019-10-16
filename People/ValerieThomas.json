@@ -47,8 +47,9 @@
                 "region": "Washington", 
                 "region_abbreviation": "DC"  
     },    
-        "job": "Data Analyst , Project Manager",  
+        "job": "Data Analyst, Project Manager",
+         "notes": "",
         "start_year": 1964,
-            "end_year": 1995    
-        }]
+        "end_year": 1995    
+     }]
 }                                          
