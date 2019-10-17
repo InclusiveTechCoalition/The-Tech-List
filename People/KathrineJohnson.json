@@ -1,6 +1,6 @@
 {
-    "full_name": "Kathrine Coleman Goble Johnson",
-    "common_name": "Kathrine",
+    "full_name": "Katherine Coleman Goble Johnson",
+    "common_name": "Katherine",
     "pronouns": [{
         "subject": "she",
         "object": "her",
@@ -39,19 +39,34 @@
     }],
     "accomplishment": [{ 
         "type": "Award", 
-        "description": "Kathrine received multiple individual honors and group awards for her outstanding work on NASA's Lunar Spacecraft and Operations", 
-        "short_description": "NASA Langley Research Center Special Achievement award", 
-        "year": [1971, 1980, 1985, 1986]
+        "description": "Katherine received multiple individual honors and group awards for her outstanding work on NASA's Lunar Spacecraft and Operations", 
+        "short_description": "NASA Langley Research Center Special Achievement award for 1971, 1980, 1985, 1986", 
+        "year": 1986
     },
     {
         "type": "Presidential Medal of Freedom", 
-        "short_description": "President Barak Obama awarded Kathrine the Presidential Medal of Freedom", 
+        "short_description": "President Barak Obama awarded Katherine the Presidential Medal of Freedom", 
         "year": 2015
     },
     {
         "type": "Honorary Doctorate of Science", 
-        "short_description": "Katherine was awarded honorary doctorates from: Capitol College, laural, Maryland; Old Dominion University, Norfolk, Virginia; Spelman College; College of William and Mary, Williamsburg, Virigina.", 
-        "year": [2006, 2010, 2017, 2018]
+        "short_description": " From Capitol College, laural, Maryland", 
+        "year": 2006
+    },
+    {
+        "type": "Honorary Doctorate of Science", 
+        "short_description": "From Old Dominion University, Norfolk, Virginia", 
+        "year": 2010
+    },
+    {
+        "type": "Honorary Doctorate of Science", 
+        "short_description": "From Spelman College", 
+        "year": 2017
+    },
+    {
+        "type": "Honorary Doctorate of Science", 
+        "short_description": "From College of William and Mary, Williamsburg, Virigina.", 
+        "year": 2018
     }]
 }
 
