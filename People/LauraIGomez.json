@@ -1,0 +1,93 @@
+{
+    "full_name": "Laura I. Gomez",
+    "common_name": "Laura",
+    "pronouns": [
+        {
+            "subject": "she",
+            "object": "her",
+            "possessive": "hers"
+        }
+    ],
+    "description": " Laura I. Gómez, is the Founder and CEO of Atipica, Inc., a venture-backed startup and founding member of Project Include.",
+    "associations": [
+        {
+            "type": "Company",
+            "name": "Atipica Inc",
+            "description": "An Inclusive AI platform for the talent life cycle. Atipica helps organizations build modern, inclusive workforces.",
+            "start_year": 2015
+        },
+        {
+            "type": "Non-Profit",
+            "name": "Project Include",
+            "description": "Project Include’s mission is to give everyone a fair chance to succeed in tech.",
+            "start_year": 2016
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of California, Berkley",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "California",
+                "region_abbreviation": "CA",
+                "metro_area": "Berkeley"
+            }
+        },
+        {
+            "institution": "Pontifícia Universidade Católica do Rio de Janeiro / PUC-Rio",
+            "location": {
+                "country_full_name": "Brazil",
+                "country_common_name": "Brazil",
+                "country_abbreviation": "BR",
+                "region": "Rio de Janeiro",
+                "metro_area": "Rio de Janeiro"
+            }
+        },
+        {
+            "institution": "University of California, San Diego",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "California",
+                "region_abbreviation": "CA",
+                "metro_area": "San Diego"
+            }
+        }
+    ],
+    "employment": [
+        {
+            "company": "Auragen Systems Corp.",
+            "location": {
+                "country_full_name": "United States",
+                "country_common_name": "US",
+                "country_abbreviation": "US",
+                "region": "New Jersey",
+                "region_abbreviation": "NJ"
+            },
+            "job": "Operating Systems Developer",
+            "notes": "Anita spent four years building a fault tolerant Unix-based operating system",
+            "start_year": 1981,
+            "end_year": 1985
+        }
+    ],
+    "accomplishment": [
+        {
+            "type": "Award",
+            "short_description": "Hispanics in Philanthropy Award",
+            "year": 2015
+        },
+        {
+            "type": "Award",
+            "short_description": "Kennedy Laureate Recipient",
+            "year": 2014
+        },
+        {
+            "type": "Award",
+            "short_description": "Forbes México 50 Most Powerful Women",
+            "year": 2013
+        }
+    ]
+}

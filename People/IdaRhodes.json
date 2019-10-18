@@ -1,0 +1,89 @@
+{
+   "full_name":"Ida Rhodes",
+   "common_name":"Ida",
+   "pronouns":[
+      {
+         "subject":"she",
+         "object":"her",
+         "possessive":"hers"
+      }
+   ],
+   "birth_year":1900,
+   "death_year":1986,
+   "description":"Ida Rhodes was a mathematician, computer expert, and language translation specialist.",
+   "notes":"Ida worked on the Mathematical Tables Project, a New Deal program, and co-designed the C-10 programming language, utilized by the Census Bureau's UNIVAC-I computer. Through her government work, she created the Social Security Administration's original computer program. Ida also pushed computers forward in language translation by understanding the importance of parsing roots, suffices, and sentences.",
+   "education":[
+      {
+         "institution":"Cornell University",
+         "location":{
+            "country_full_name":"United States",
+            "country_common_name":"US",
+            "country_abbreviation":"US",
+            "region":"New York",
+            "region_abbreviation":"NY",
+            "metro_area":"Ithaca"
+         },
+         "field_of_study":"Mathematics",
+         "degree_title":"BA"
+      },
+      {
+         "institution":"Cornell University",
+         "location":{
+            "country_full_name":"United States",
+            "country_common_name":"US",
+            "country_abbreviation":"US",
+            "region":"New York",
+            "region_abbreviation":"NY",
+            "metro_area":"Ithaca"
+         },
+         "field_of_study":"Mathematics",
+         "degree_title":"MA"
+      }
+   ],
+   "employment":[
+      {
+         "company":"National Bureau of Standards",
+         "job":"Supervisor of the Mathematical Tables Project",
+         "location":{
+            "country_full_name":"United States",
+            "country_common_name":"US",
+            "country_abbreviation":"US",
+            "region":"New York",
+            "region_abbreviation":"NY",
+            "metro_area":"New York City"
+         },
+         "start_year":1940,
+         "end_year":1947,
+         "notes":"Ida was a planner and supervisor under the Mathematics Tables Project (MTP). Critical mathematical tables for scientific, engineering, and military purposes were produced through the MTP."
+      },
+      {
+         "company":"Applied Mathematics Laboratories at the National Bureau of Standards",
+         "job":"Various",
+         "location":{
+            "country_full_name":"United States",
+            "country_common_name":"US",
+            "country_abbreviation":"US",
+            "region":"Washington, D.C.",
+            "region_abbreviation":"DC",
+            "metro_area":"Washington, D.C."
+         },
+         "start_year":1947,
+         "end_year":1964,
+         "notes":"Ida consulted various government agencies while advancing the analysis of systems of programming."
+      }
+   ],
+   "accomplishment":[
+      {
+         "type":"Award",
+         "short_description":"Exceptional Service Gold Medal",
+         "description":"Awarded by the Department of Commerce, this award recognized her pioneering contributions to the nation.",
+         "year": 1949
+      },
+      {
+         "type":"Award",
+         "short_description":"Certificate of Appreciation",
+         "description":"The Department of Commerce recognized her contributions on the 25th anniversary of the UNIVAC-I.",
+         "year": 1976
+      }
+   ]
+}

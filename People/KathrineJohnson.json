@@ -1,0 +1,72 @@
+{
+    "full_name": "Katherine Coleman Goble Johnson",
+    "common_name": "Katherine",
+    "pronouns": [{
+        "subject": "she",
+        "object": "her",
+        "possessive": "hers"
+    }],
+    "birth_year": 1918,
+    "description": "Katherine Coleman Goble Johnson is an American mathematician whose calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights.",
+    "notes": "Johnson's work included calculating trajectories, launch windows and emergency return paths for Project Mercury spaceflights, including those for astronauts Alan Shepard, the first American in space, and John Glenn, the first American in orbit, and rendezvous paths for the Apollo Lunar Module and command module on flights to the Moon.",
+    "education": [{ 
+        "institution": "West Virginia State College",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "West Virginia",
+            "region_abbreviation": "WV",
+            "metro_area": "Institute" 
+        },
+        "field_of_study": "Mathematics and French",
+        "degree_title": "B.S.",
+        "end_year": 1937
+    }],    
+    "employment": [{ 
+        "company": "NACA, NASA",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Virginia",
+            "region_abbreviation": "VA"
+        },
+        "job": "Computer, Research Mathematician",
+        "notes": "From 1958 until her retirement in 1986, Johnson worked as an aerospace technologist, moving during her career to the Spacecraft Controls Branch. She calculated the trajectory for the May 5, 1961 space flight of Alan Shepard, the first American in space. She also calculated the launch window for his 1961 Mercury mission. She plotted backup navigation charts for astronauts in case of electronic failures. When NASA used electronic computers for the first time to calculate John Glenn's orbit around Earth, officials called on Johnson to verify the computer's numbers; Glenn had asked for her specifically and had refused to fly unless Johnson verified the calculations.",
+        "start_year": 1958,
+        "end_year": 1986
+    }],
+    "accomplishment": [{ 
+        "type": "Award", 
+        "description": "Katherine received multiple individual honors and group awards for her outstanding work on NASA's Lunar Spacecraft and Operations", 
+        "short_description": "NASA Langley Research Center Special Achievement award for 1971, 1980, 1985, 1986", 
+        "year": 1986
+    },
+    {
+        "type": "Presidential Medal of Freedom", 
+        "short_description": "President Barak Obama awarded Katherine the Presidential Medal of Freedom", 
+        "year": 2015
+    },
+    {
+        "type": "Honorary Doctorate of Science", 
+        "short_description": " From Capitol College, laural, Maryland", 
+        "year": 2006
+    },
+    {
+        "type": "Honorary Doctorate of Science", 
+        "short_description": "From Old Dominion University, Norfolk, Virginia", 
+        "year": 2010
+    },
+    {
+        "type": "Honorary Doctorate of Science", 
+        "short_description": "From Spelman College", 
+        "year": 2017
+    },
+    {
+        "type": "Honorary Doctorate of Science", 
+        "short_description": "From College of William and Mary, Williamsburg, Virigina.", 
+        "year": 2018
+    }]
+}
+

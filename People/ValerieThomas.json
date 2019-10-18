@@ -1,0 +1,55 @@
+{    
+    "full_name": "Valerie Thomas",  
+        "common_name": "Hanna",    
+        "pronouns": [{    
+            "subject": "she",    
+            "object": "her",    
+            "possessive": "hers"    
+    }],    
+
+        "birth_year": 1943,   
+        "description": " Thomas worked for NASA where she developed computer data systems, conducted large-scale experiments, and managed various operations, projects, and facilities.",    
+        "associations":[{    
+            "type": "Recognition", 
+            "name": "She invented the illusion transmiter ",    
+            "description": " She obtained the patent for the illusion transmitter, a device that NASA continues to use today.",
+            "start_year": 1976, 
+            "end_year": 1980    
+    },
+
+​    {    
+        "type": "Recognition",    
+        "name": "Goddard Space Flight Center Award  and the NASA Equal Opportunity Medal.",   
+        "description": " She received the Goddar space awarad and the NASA Equal Opportunity Medal.",   
+        "start_year": 1980,    
+        "end_year": 1980   
+    }],    
+        "education": [{    
+            "institution": "Morgan State university",   
+            "location": {    
+                "country_full_name": "United States",
+                "country_common_name": "US",   
+                "country_abbreviation": "US",    
+                "region": "Baltimore",   
+                "region_abbreviation": "MD",  
+                "metro_area": "Maryland"    
+    },  
+        "field_of_study": "Business",   
+        "degree_title": "Bachelors",  
+        "end_year": 1964    
+    }],    
+        "employment": [{    
+            "company": "Nasa.",    
+            "location": {   
+                "country_full_name": "United States",   
+                "country_common_name": "US",   
+                "country_abbreviation": "US",   
+                "region": "Washington", 
+                "region_abbreviation": "DC"  
+    },    
+        "job": "Data Analyst, Project Manager",
+         "notes": "",
+        "start_year": 1964,
+        "end_year": 1995    
+     }]
+}                                          

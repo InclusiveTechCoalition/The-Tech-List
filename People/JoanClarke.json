@@ -1,0 +1,76 @@
+{
+  "full_name": "Joan Elisabeth Lowther Murray (formerly Clarke)",
+  "common_name": "Joan",
+  "pronouns": [
+    {
+      "subject": "she",
+      "object": "her",
+      "possessive": "hers"
+    }
+  ],
+  "birth_year": 1917,
+  "death_year": 1996,
+  "description": "Joan was an English cryptanalyst and numismatist best known for her work as a code-breaker at Bletchley Park during the Second World War.",
+  "notes": "Joan was part of the team that helped decrypt Nazi Germany's secret communications during the Enigma project. Her Geometry supervisor, and Bletchley Park codebreaker, Gordon Welchman recruited her to the Government Code & Cipher School in June 1940.",
+  "associations": [
+    {
+      "type": "Professional",
+      "name": "Bletchley Park",
+      "description": "Joan Clarke was a Cryptanalysis at Bletchley Park during the Second World War",
+      "start_year": 1940,
+      "end_year": 1945
+    }
+  ],
+  "education": [
+    {
+      "institution": "Newnham College, Cambridge",
+      "location": {
+        "country_full_name": "United Kingdom",
+        "country_common_name": "UK",
+        "country_abbreviation": "UK",
+        "region": "Cambridgeshire",
+        "region_abbreviation": "Cambs",
+        "metro_area": "Cambridge"
+      },
+      "field_of_study": "Mathematics",
+      "degree_title": "Bachelors",
+      "end_year": 1939
+    }
+  ],
+  "employment": [
+    {
+      "company": "Government Code and Cypher School (GC&CS)",
+      "location": {
+        "country_full_name": "United Kingdom",
+        "country_common_name": "UK",
+        "country_abbreviation": "UK",
+        "region": "Cambridgeshire",
+        "region_abbreviation": "Cambs"
+      },
+      "job": "Female Practitioner of Banburismus",
+      "notes": "Her role was to help break German Kriegsmarine (naval) messages enciphered on Enigma machines. The Banburismus process used sequential conditional probability to infer information about the likely settings of the Enigma machine.",
+      "start_year": 1940,
+      "end_year": 1944
+    }
+  ],
+  "accomplishment": [
+    {
+      "type": "Academic",
+      "description": "Joan Clark was a \"Wrangler\" upon completion of college. A \"Wrangler\" is a student who gains first-class honours in the third year of the University's undergraduate degree in mathematics.",
+      "short_description": "Joan Clark was a \"Wrangler\" upon completion of college",
+      "year": 1939
+    },
+    {
+      "type": "Professional",
+      "description": "In 1944, Joan Clarke remained in Hut 8 at Bletchley Park and became the deputy director.",
+      "short_description": "Joan Clarke became deputy head of Hut 8.",
+      "year": 1944
+    },
+    {
+      "type": "Award",
+      "description": "Joan was appointed as a Member of the Order of the British Empire (MBE) - a British order of chivalry, rewarding contributions to the arts and sciences, work with charitable and welfare organisations, and public service outside the civil service.",
+      "short_description": "Joan was appointed as a Member of the Order of the British Empire (MBE).",
+      "year": 1946
+    }
+  ]
+}
