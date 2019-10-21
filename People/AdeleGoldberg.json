@@ -59,6 +59,8 @@
         "type": "Award", 
         "short_description": "Adele received PC Magazine's Lifetime Achievement Award.", 
         "year": 1996
-    }]
+    }],
+    
+    "imgUrl": "headshots/AdeleGoldberg.jpg"
 }
 

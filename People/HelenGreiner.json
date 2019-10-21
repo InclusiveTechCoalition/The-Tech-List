@@ -69,7 +69,7 @@
         "location": {
             "country_full_name": "United States",
             "country_common_name": "US",
-            "country_abbreviation": "US",
+            "country_abbreviation": "US"
 
         },
         "job": "Advisor",
@@ -90,5 +90,6 @@
         "type": "Award", 
         "short_description": "Greiner received the Pioneer Award from the Association for Unmanned Vehicle Systems International(AUVSI).", 
         "year": 2006
-    }]
+    }],
+    "imgUrl": "headshots/HelenGreiner.jpg"
 }
