@@ -1,61 +1,61 @@
-​ {    
-    "full_name": "Mary Eleanor Spear",  
-        "common_name": "Mary",    
-        "pronouns": [{    
-            "subject": "she",    
-            "object": "her",    
-            "possessive": "hers"    
-    }],    
-
-        "birth_year": 1897,   
-        "description": "Mary Eleanor Spear was an american data visualization specialist, graphic analyst and author, who pioneered development of the bar chart and box plot",     
-        "associations":[{    
-            "type": "Recognition", 
-            "name": "Her first recognition",    
-            "description": "Spear has been recognised, by [statisticians] Edward Tufte and [Hadley Wickham among others, as having presented the first formulation of the box plot. This was shown in *Charting Statistics* , on page 166 shows a diagram of a range bar chart featuring an interquartile range box. The box plot was further developed seventeen years later by American mathematician John Tukey.",
-            "start_year": 1952, 
-            "end_year": 1969    
-    },
-
-​    {    
-        "type": "Books",    
-        "name": "AnitaB.org",   
-        "description": "She wrote two books Charting Statistics* in 1952 Practical Charting Techniques in 1969,which described detailed techniques to design and create various types of statistical charts and graphs. She also explained the roles needed for successful development and presentation of charts: a graphic analyst, a draftsman, and a communicator.The same team-based approach is recommended by 21st century author and presentations expert Nancy Duarte.",   
-        "start_year": 1952,    
-        "end_year": 1969   
-    }],    
-        "education": [{    
-            "institution": "George Washington University",   
-            "location": {    
-                "country_full_name": "United States",
-                "country_common_name": "US",   
-                "country_abbreviation": "US",    
-                "region": "Washington",   
-                "region_abbreviation": "DC",  
-                "metro_area": "Washington"    
-    },  
-        "field_of_study": "Business",   
-        "degree_title": "Bachelors",  
-        "end_year": 1921    
-    }],    
-        "employment": [{    
-            "company": "Bureau of Labor Statistics.",    
-            "location": {   
-                "country_full_name": "United States",   
-                "country_common_name": "US",   
-                "country_abbreviation": "US",   
-                "region": "New Jersey", 
-                "region_abbreviation": "DC"  
-    },    
-        "job": "Visual Information Specialist",  
-        "start_year": 1920,
-            "end_year": 1960    
-        }], 
-        "accomplishment": [{  
-            "type": "Recognition",  
-            "description": "Spear has been recognised, by [statisticians] Edward Tufter  and Hadley Wickham among others, as having presented the first formulation of the box plot. This was shown in *Charting Statistics* , on page 166 shows  a diagram of a range bar chart featuring an interquartile range box.The box plot was further developed seventeen years later by American mathematician John Tukey.",  
-            "short_description": "Recognition", 
-            "year": 1960   
+{
+    "full_name": "Mary Eleanor Spear",
+    "common_name": "Mary",
+    "pronouns": [{
+        "subject": "she",
+        "object": "her",
+        "possessive": "hers"
     }],
-    "imgUrl": "headshots/MaryEleanorSpear.png"
-}                                          
+
+    "birth_year": 1897,
+    "description": "Mary Eleanor Spear was an american data visualization specialist, graphic analyst and author, who pioneered development of the bar chart and box plot",
+    "associations": [{
+            "type": "Recognition",
+            "name": "Her first recognition",
+            "description": "Spear has been recognised, by [statisticians] Edward Tufte and [Hadley Wickham among others, as having presented the first formulation of the box plot. This was shown in *Charting Statistics* , on page 166 shows a diagram of a range bar chart featuring an interquartile range box. The box plot was further developed seventeen years later by American mathematician John Tukey.",
+            "start_year": 1952,
+            "end_year": 1969
+        },
+        {
+            "type": "Books",
+            "name": "AnitaB.org",
+            "description": "She wrote two books Charting Statistics* in 1952 Practical Charting Techniques in 1969,which described detailed techniques to design and create various types of statistical charts and graphs. She also explained the roles needed for successful development and presentation of charts: a graphic analyst, a draftsman, and a communicator.The same team-based approach is recommended by 21st century author and presentations expert Nancy Duarte.",
+            "start_year": 1952,
+            "end_year": 1969
+        }
+    ],
+    "education": [{
+        "institution": "George Washington University",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "Washington",
+            "region_abbreviation": "DC",
+            "metro_area": "Washington"
+        },
+        "field_of_study": "Business",
+        "degree_title": "Bachelors",
+        "end_year": 1921
+    }],
+    "employment": [{
+        "company": "Bureau of Labor Statistics.",
+        "location": {
+            "country_full_name": "United States",
+            "country_common_name": "US",
+            "country_abbreviation": "US",
+            "region": "New Jersey",
+            "region_abbreviation": "DC"
+        },
+        "job": "Visual Information Specialist",
+        "start_year": 1920,
+        "end_year": 1960
+    }],
+    "accomplishment": [{
+        "type": "Recognition",
+        "description": "Spear has been recognised, by [statisticians] Edward Tufter  and Hadley Wickham among others, as having presented the first formulation of the box plot. This was shown in *Charting Statistics* , on page 166 shows  a diagram of a range bar chart featuring an interquartile range box.The box plot was further developed seventeen years later by American mathematician John Tukey.",
+        "short_description": "Recognition",
+        "year": 1960
+    }],
+    "imgUrl": "photo/MaryEleanorSpear.png"
+}
