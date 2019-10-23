@@ -10,25 +10,25 @@
     "description": "Karen Sparck Jones was a British computer science professor who was responsible for the concept of inverse document frequency, a technology that underlies most modern search engines.",
     "notes": "In 2019, The New York Times published her belated obituary in its series Overlooked, calling her 'a pioneer of computer science for work combining statistics and linguistics, and an advocate for women in the field.'",
     "associations": [{
-        "type": "Professional", 
+        "type": "Professional",
         "name": "British Academy",
-        "description": "The British Academy is the United Kingdom's national academy for the humanities and the social sciences.", 
+        "description": "The British Academy is the United Kingdom's national academy for the humanities and the social sciences.",
         "start_year": 2000,
         "end_year": 2002
     },{
-		"type": "Professional", 
+		"type": "Professional",
         "name": "Association for the Advancement of Artificial Intelligence",
         "description": "The Association for the Advancement of Artificial Intelligence (AAAI) is an international scientific society devoted to promote research in, and responsible use of, artificial intelligence."
 	},{
-        "type": "Professional", 
+        "type": "Professional",
         "name": "European Association for Artificial Intelligence",
         "description": "The European Association for Artificial Intelligence (ECCAI) aims to promote study, research, and applications of artificial intelligence (AI) in Europe."
     },{
-        "type": "Professional", 
+        "type": "Professional",
         "name": "Association for Computational Linguistics",
         "description": "The Association for Computational Linguistics (ACL) is the international scientific and professional society for people working on problems involving natural language and computation."
     }],
-    "education": [{ 
+    "education": [{
         "institution": "Cambridge University",
         "location": {
             "country_full_name": "United Kingdom",
@@ -36,13 +36,13 @@
             "country_abbreviation": "UK",
             "region": "Cambridgeshire",
             "region_abbreviation": "Cambs",
-            "metro_area": "Cambridge" 
+            "metro_area": "Cambridge"
         },
         "field_of_study": "Computer Science",
         "degree_title": "PhD",
         "end_year": 1964
-    }],    
-    "employment": [{ 
+    }],
+    "employment": [{
         "company": "Cambridge Language Research Unit",
         "location": {
             "country_full_name": "United Kingdom",
@@ -56,7 +56,7 @@
         "notes": "Began working for Margaret Masterman to do machine translations and information retrieval. During this time she wrote her thesis on semantic classifications and began programming a massive automatic thesaurus.",
         "start_year": 1957,
         "end_year": 1974
-    },{ 
+    },{
         "company": "Cambridge University Computer Laboratory",
         "location": {
             "country_full_name": "United Kingdom",
@@ -70,7 +70,7 @@
         "notes": "Working on a series of short-term contracts and grants, she continuted her work on linguistics and later became involved in a government sponsored research initiative called the Alvey Programme.",
         "start_year": 1974,
         "end_year": 1999
-    },{ 
+    },{
         "company": "Cambridge University Computer Laboratory",
         "location": {
             "country_full_name": "United Kingdom",
@@ -85,42 +85,42 @@
         "start_year": 1999,
         "end_year": 2002
     }],
-    "accomplishment": [{ 
-        "type": "Award", 
-        "description": "The Gerard Salton Award is presented by the Association for Computing Machinery (ACM) Special Interest Group on Information Retrieval (SIGIR) every three years to an individual who has made significant, sustained and continuing contributions to research in information retrieval.", 
-        "short_description": "Gerard Salton Award", 
+    "accomplishment": [{
+        "type": "Award",
+        "description": "The Gerard Salton Award is presented by the Association for Computing Machinery (ACM) Special Interest Group on Information Retrieval (SIGIR) every three years to an individual who has made significant, sustained and continuing contributions to research in information retrieval.",
+        "short_description": "Gerard Salton Award",
         "year": 1998
     },
     {
-        "type": "Award", 
-        "description": "The Association for Information Science and Technology (ASIS&T) is a non-profit membership organization for information professionals that sponsors an annual conference as well as several serial publications.", 
-        "short_description": "ASIS&T Award of Merit", 
+        "type": "Award",
+        "description": "The Association for Information Science and Technology (ASIS&T) is a non-profit membership organization for information professionals that sponsors an annual conference as well as several serial publications.",
+        "short_description": "ASIS&T Award of Merit",
         "year": 2002
     },
     {
-        "type": "Award", 
-        "description": "The Association for Computational Linguistics (ACL) is the international scientific and professional society for people working on problems involving natural language and computation.", 
-        "short_description": "ACL Lifetime Achievement Award", 
+        "type": "Award",
+        "description": "The Association for Computational Linguistics (ACL) is the international scientific and professional society for people working on problems involving natural language and computation.",
+        "short_description": "ACL Lifetime Achievement Award",
         "year": 2004
     },
     {
-        "type": "Award", 
-        "description": "The Lovelace Medal was established by the British Computer Society in 1998, and is presented to individuals who have made outstanding contributions to the understanding or advancement of Computing. It is the top award in Computing in the UK.", 
-        "short_description": "BCS Lovelace Medal", 
+        "type": "Award",
+        "description": "The Lovelace Medal was established by the British Computer Society in 1998, and is presented to individuals who have made outstanding contributions to the understanding or advancement of Computing. It is the top award in Computing in the UK.",
+        "short_description": "BCS Lovelace Medal",
         "year": 2007
     },
     {
-		"type": "Award", 
+		"type": "Award",
 		"description": "The ACM-AAAI Allen Newell Award is presented to an individual selected for career contributions that have breadth within computer science, or that bridge computer science and other disciplines.",
-        "short_description": "ACM - AAAI Allen Newell Award", 
+        "short_description": "ACM - AAAI Allen Newell Award",
         "year": 2006
     },
     {
-		"type": "Award", 
+		"type": "Award",
 		"description": "The ACM-W gives an annual Athena Lecturer Award to honor outstanding women researchers who have made fundamental contributions to computer science.",
-        "short_description": "ACM Women's Group Athena Award", 
+        "short_description": "ACM Women's Group Athena Award",
         "year": 2007
     }],
-    "imgUrl": "headshots/KarenSparckJones.jpg"
+    "imgUrl": "photo/KarenSparckJones.jpg"
 }
 
