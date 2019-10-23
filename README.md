@@ -28,6 +28,6 @@ We have built a (super) basic node server into the project for ease of use with 
 * run `npm run start`
 
 Use the following urls to see content locally:
-* localhost:[port]/list ==> Full list
-* localhost:[port]/profile/[name].json ==> an individual file
-* localhost:[port]/photo/[name].jpg ==> an individual headshot
+* `localhost:[port]/list` for the Full list
+* `localhost:[port]/profile/[name].json` for an individual file
+* `localhost:[port]/photo/[name].jpg` for an individual headshot
