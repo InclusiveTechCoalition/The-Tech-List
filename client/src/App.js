@@ -7,7 +7,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class App extends React.Component {
   async componentDidMount(){
-    await axios.get("http://localhost:3001/profile/GraceHopper.json")
+    const response = await axios.get("http://localhost:3001/profile/GraceHopper.json")
+    console.log(response);
   }
   render() {
     return (
