@@ -10,7 +10,7 @@
     "description": "Helen Greiner is a co-founder of iRobot and former CTO of CyPhyWorks, a start-up company specializing in small multi-rotor drones for the consumer, commercial and military markets.",
     "notes": "In 1990, along with Rodney Brooks and Colin Angle, Greiner co-founded iRobot, a robotics company headquartered in Bedford, Massachusetts, which delivers robots into the consumer market. She co-designed the first version of the iRobot Roomba.",
     "associations": [],
-    "education": [{ 
+    "education": [{
         "institution": "Massachusetts Institute of Technology",
         "location": {
             "country_full_name": "United States",
@@ -35,8 +35,8 @@
         "field_of_study": "Computer Science",
         "degree_title": "SM",
         "end_year": 1990
-    }],        
-    "employment": [{ 
+    }],
+    "employment": [{
         "company": "iRobot",
         "location": {
             "country_full_name": "United States",
@@ -50,7 +50,7 @@
         "start_year": 1990,
         "end_year": 2004
     },
-    {  
+    {
         "company": "CyPhy Works",
         "location": {
             "country_full_name": "United States",
@@ -64,31 +64,32 @@
         "start_year": 2008,
         "end_year": 2017
     },
-    {  
+    {
         "company": "United States Army",
         "location": {
             "country_full_name": "United States",
             "country_common_name": "US",
-            "country_abbreviation": "US",
+            "country_abbreviation": "US"
 
         },
         "job": "Advisor",
         "notes": "Greiner is currently working as a “highly qualified expert” for a government agency that fosters technological innovation to benefit the U.S. Army.",
         "start_year": 2018
     }],
-    "accomplishment": [{ 
-        "type": "Award", 
-        "short_description": "Greiner received the 2008 Anita Borg Institute Women of Vision Award for Innovation for her work at iRobot.", 
+    "accomplishment": [{
+        "type": "Award",
+        "short_description": "Greiner received the 2008 Anita Borg Institute Women of Vision Award for Innovation for her work at iRobot.",
         "year": 2008
     },
     {
-        "type": "Induction", 
-        "short_description": "Greiner was inducted into the Women in Technology International Hall of Fame.", 
+        "type": "Induction",
+        "short_description": "Greiner was inducted into the Women in Technology International Hall of Fame.",
         "year": 2007
     },
     {
-        "type": "Award", 
-        "short_description": "Greiner received the Pioneer Award from the Association for Unmanned Vehicle Systems International(AUVSI).", 
+        "type": "Award",
+        "short_description": "Greiner received the Pioneer Award from the Association for Unmanned Vehicle Systems International(AUVSI).",
         "year": 2006
-    }]
+    }],
+    "imgUrl": "photo/HelenGreiner.jpg"
 }

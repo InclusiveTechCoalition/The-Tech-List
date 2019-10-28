@@ -9,7 +9,7 @@
     "birth_year": 1910,
     "description": "Dorothy Vaughan was an African American mathematician and human computer who worked for the National Advisory Committee for Aeronautics (NACA), and NASA, at Langley Research Center in Hampton, Virginia",
     "notes": "In 1949 she was the first African American woman to supervise a group at the West Area Supervisor center where she was later officially promoted to the position. With the introduction of computers quickly arising, she taught herself and her staff FORTRAN. She later headed the programming section of the Analysis and Computation Division (ACD) at Langley",
-    "education": [{ 
+    "education": [{
         "institution": "Wilberforce University",
         "location": {
             "country_full_name": "United States",
@@ -17,13 +17,13 @@
             "country_abbreviation": "US",
             "region": "Wilberforce",
             "region_abbreviation": "OH",
-            "metro_area": "Ohio" 
+            "metro_area": "Ohio"
         },
         "field_of_study": "Mathematics",
         "degree_title": "BA",
         "end_year": 1929
-    }],    
-    "employment": [{ 
+    }],
+    "employment": [{
         "company": "Langley Research Center",
         "location": {
             "country_full_name": "United States",
@@ -37,28 +37,29 @@
         "start_year": 1943,
         "end_year": 1971
     }],
-    "accomplishment": [{ 
-        "type": "Award", 
-        "description": "Dorothy was awarded Class Valedictorian", 
-        "short_description": "Beechurst High School", 
+    "accomplishment": [{
+        "type": "Award",
+        "description": "Dorothy was awarded Class Valedictorian",
+        "short_description": "Beechurst High School",
         "year": 1925
     },
     {
-        "type": "Award", 
-        "description": "West Virginia Conference of the A.M.E. Sunday School Convention", 
-        "short_description": "Vaughan received a Full Tuition Scholarship", 
+        "type": "Award",
+        "description": "West Virginia Conference of the A.M.E. Sunday School Convention",
+        "short_description": "Vaughan received a Full Tuition Scholarship",
         "year": 1925
     },
     {
-        "type": "Honorary Degree", 
-        "description": "Wilberforce University", 
-        "short_description": "Mathematician Graduate Cum Laude", 
+        "type": "Honorary Degree",
+        "description": "Wilberforce University",
+        "short_description": "Mathematician Graduate Cum Laude",
         "year": 1929
     },
     {
-        "type": "Honor", 
-        "description": "Head of National Advisory Committee of Aeronautics' Segregated West Computing Unit", 
+        "type": "Honor",
+        "description": "Head of National Advisory Committee of Aeronautics' Segregated West Computing Unit",
         "year": 2002
-    }]
+    }],
+    "imgUrl": "photo/DorothyVaughan.jpg"
 }
 

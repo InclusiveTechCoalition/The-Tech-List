@@ -9,7 +9,7 @@
     "birth_year": 1956,
     "description": "Mae C. Jemison is the first African-American female astronaut. In 1992, she flew into space aboard the Endeavour, becoming the first African-American woman in space.",
     "notes": "In recognition of her accomplishments, Jemison has received several awards and honorary doctorates.",
-    "education": [{ 
+    "education": [{
         "institution": "Stanford University",
         "location": {
             "country_full_name": "United States",
@@ -17,12 +17,12 @@
             "country_abbreviation": "US",
             "region": "California",
             "region_abbreviation": "CA",
-            "metro_area": "Stanford" 
+            "metro_area": "Stanford"
         },
         "field_of_study": "Chemical Engineering",
         "degree_title": "BS"
     },
-    { 
+    {
         "institution": "Cornell University",
         "location": {
             "country_full_name": "United States",
@@ -30,12 +30,12 @@
             "country_abbreviation": "US",
             "region": "New York",
             "region_abbreviation": "NY",
-            "metro_area": "New york City" 
+            "metro_area": "New york City"
         },
         "field_of_study": "Medicine",
         "degree_title": "M.D."
-    }],    
-    "employment": [{ 
+    }],
+    "employment": [{
         "company": "NASA",
         "location": {
             "country_full_name": "United States",
@@ -47,20 +47,21 @@
         "start_year": 1987,
         "end_year": 1993
     }],
-    "accomplishment": [{ 
-        "type": "Award", 
-        "short_description": "Essence Science and Technology Award", 
+    "accomplishment": [{
+        "type": "Award",
+        "short_description": "Essence Science and Technology Award",
         "year": 1988
     },
-    { 
-        "type": "Award", 
-        "short_description": "Ebony Black Achievement Award", 
+    {
+        "type": "Award",
+        "short_description": "Ebony Black Achievement Award",
         "year": 1992
     },
-    { 
-        "type": "Award", 
-        "short_description": "Montgomery Fellowship from Dartmouth College", 
+    {
+        "type": "Award",
+        "short_description": "Montgomery Fellowship from Dartmouth College",
         "year": 1993
-    }]
+    }],
+    "imgUrl": "photo/MaeJemison.jpg"
 }
 
