@@ -1,20 +1,20 @@
 <template>
   <v-container>
-    <h3>{{(year || type) ? `${type} (${year})` : '...'}}</h3>
+    <h3>{{(accomplishment.year || accomplishment.type) ? `${accomplishment.type} (${accomplishment.year})` : '...'}}</h3>
     <v-form>
       <v-row>
         <v-col>
-          <v-text-field v-model="type" label="type" v-on:input="$emit('data', props)"/>
+          <v-text-field v-model="accomplishment.type" label="type" />
         </v-col>
         <v-col>
-          <v-text-field v-model="year" label="year" v-on:input="$emit('data', props)"/>
+          <v-text-field v-model="accomplishment.year" label="year" />
         </v-col>
         <v-col>
-          <v-text-field v-model="short_description" label="short summary" v-on:input="$emit('data', props)"/>
+          <v-text-field v-model="accomplishment.short_description" label="short summary" />
         </v-col>
       </v-row>
       <v-row>
-        <v-textarea label="details" v-model="description" v-on:input="$emit('data', props)"/>
+        <v-textarea label="details" v-model="accomplishment.description" />
       </v-row>
     </v-form>
   </v-container>
@@ -24,10 +24,7 @@
 export default {
   name: 'Accomplishment',
   props: {
-    year: Number,
-    type: String,
-    description: String,
-    short_description: String
+    accomplishment: Object,
   }
 }
 </script>
