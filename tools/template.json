@@ -1,0 +1,58 @@
+{
+    "full_name": "Grace Hopper",
+    "common_name": "Grace",
+    "pronouns": "pronouns",
+    "birth_year": 1901,
+    "death_year": 1901,
+    "description": "Grace Hopper was an admiral in the US Navy and created the first compiler and compiled languages.",
+    "education": [{
+        "institution": "string",
+        "location": "location",
+        "field_of_study": "string",
+        "start_year": 1901,
+        "end_year": 1901
+    }],
+    "employment": [{
+        "company": "string",
+        "location": {},
+        "job": "string",
+        "start_year": 1901,
+        "end_year": 1901
+    }],
+    "accomplishment": [{
+        "type": "Invention",
+        "description": "Invented Compilers and the COBOL programming language",
+        "short_description": "Invented Compilers and the COBOL programming language",
+        "year": 1901
+    }],
+    "other_assocations": [{
+        "type": "string",
+        "name": "string",
+        "description": "string",
+        "location": "location",
+        "start_year": 1901,
+        "end_year": 1901
+    }],
+    "home": [{
+        "begin_year": 1901,
+        "end_year": 1901,
+        "location": "location"
+    }],
+    "OtherTemplates": {
+        "Location_schema": {
+            "country_full_name": "string",
+            "country_common_name": "string",
+            "country_abbreviation": "string",
+            "region": "string",
+            "region_description": "string",
+            "region_abbreviation": "string",
+            "metro_area": "string"
+        },
+        "Pronoun_schema":
+        {
+            "subject": "string",
+            "object": "string",
+            "possessive": "string"
+        }
+    }
+}
