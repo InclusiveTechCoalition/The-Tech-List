@@ -91,4 +91,8 @@
   a {
     color: #42b983;
   }
+
+  .v-btn {
+    margin-right: 0.25em;
+  }
 </style>

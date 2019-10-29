@@ -27,17 +27,24 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-textarea v-model="model.description"
-                      :label="`What makes ${model.pronouns.object || 'them'} notable?`"
-                      required></v-textarea>
+          <v-col>
+            <v-textarea v-model="model.description"
+                        :label="`What makes ${model.pronouns.object || 'them'} notable?`"
+                        required></v-textarea>
+          </v-col>
         </v-row>
         <v-row>
-          <v-text-field v-model="model.birth_year" label="Birth Year"/>
-          <v-text-field v-model="model.birth_year" label="Death Year"/>
+          <v-col>
+            <v-text-field v-model="model.birth_year" label="Birth Year"/>
+          </v-col>
+          <v-col>
+            <v-text-field v-model="model.birth_year" label="Death Year"/>
+          </v-col>
         </v-row>
       </v-container>
       <v-container>
         <v-expansion-panels multiple="true" focusable="true">
+          <!--Accomplishments-->
           <v-expansion-panel>
             <v-expansion-panel-header>
               <h2>Accomplishments</h2>
@@ -53,6 +60,7 @@
               </v-row>
             </v-expansion-panel-content>
           </v-expansion-panel>
+          <!--Education-->
           <v-expansion-panel>
             <v-expansion-panel-header>
               <h2>Education</h2>
@@ -68,6 +76,22 @@
               </v-row>
             </v-expansion-panel-content>
           </v-expansion-panel>
+          <!--Employment-->
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              <h2>Employment</h2>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row>
+                <Employment v-for="item in model.employment" v-bind:data="item" v-bind:list="model.employment"/>
+              </v-row>
+              <v-row>
+                <v-btn color="primary" small fab @click.stop="addEmployment()">
+                  <v-icon dark>mdi-plus-circle</v-icon>
+                </v-btn>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
         </v-expansion-panels>
       </v-container>
     </v-form>
@@ -77,13 +101,15 @@
 <script>
   import Accomplishment from "./Accomplishment";
   import Education from "./Education";
+  import Employment from "./Employment";
   import DataModel from '../services/DataModel';
 
   export default {
     name: 'MainForm',
     components: {
       Accomplishment,
-      Education
+      Education,
+      Employment
     },
     data: () => ({
       model: DataModel.data,
@@ -103,6 +129,9 @@
       },
       addEducation: function () {
         this.model.education.push(DataModel.factoryEducation())
+      },
+      addEmployment: function () {
+        this.model.employment.push(DataModel.factoryEmployment())
       }
     }
   }

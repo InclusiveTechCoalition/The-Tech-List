@@ -53,8 +53,8 @@ class DataModel {
       company: '',
       location: this.factoryLocation(),
       job: '',
-      start_year: 1901,
-      end_year: 1901
+      start_year: undefined,
+      end_year: undefined
     }
   }
 
