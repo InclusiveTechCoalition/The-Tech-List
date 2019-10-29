@@ -62,7 +62,9 @@ class DataModel {
     return {
       institution: '',
       location: this.factoryLocation(),
-      field_of_study: ''
+      field_of_study: '',
+      start_year: undefined,
+      end_year: undefined
     }
   }
 

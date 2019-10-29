@@ -48,7 +48,22 @@
               </v-row>
               <v-row>
                 <v-btn color="primary" small fab @click.stop="addAccomplishment()">
-                  <v-icon>mdi-pencil-outline</v-icon>
+                  <v-icon dark>mdi-plus-circle</v-icon>
+                </v-btn>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              <h2>Education</h2>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row>
+                <Education v-for="item in model.education" v-bind:education="item" v-bind:list="model.education"/>
+              </v-row>
+              <v-row>
+                <v-btn color="primary" small fab @click.stop="addEducation()">
+                  <v-icon dark>mdi-plus-circle</v-icon>
                 </v-btn>
               </v-row>
             </v-expansion-panel-content>
@@ -61,12 +76,14 @@
 
 <script>
   import Accomplishment from "./Accomplishment";
+  import Education from "./Education";
   import DataModel from '../services/DataModel';
 
   export default {
     name: 'MainForm',
     components: {
-      Accomplishment
+      Accomplishment,
+      Education
     },
     data: () => ({
       model: DataModel.data,
@@ -83,6 +100,9 @@
       },
       addAccomplishment: function () {
         this.model.accomplishment.push(DataModel.factoryAccomplishment())
+      },
+      addEducation: function () {
+        this.model.education.push(DataModel.factoryEducation())
       }
     }
   }
