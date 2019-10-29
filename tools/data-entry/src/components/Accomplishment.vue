@@ -1,6 +1,10 @@
 <template>
   <v-container>
-    <h3>{{(accomplishment.year || accomplishment.type) ? `${accomplishment.type} (${accomplishment.year})` : '...'}}</h3>
+    <h3>
+    <v-btn color="primary" fab x-small @click.stop="deleteAccomplishment()">
+      <v-icon>mdi-close-circle</v-icon>
+    </v-btn>
+    {{(accomplishment.year || accomplishment.type) ? `${accomplishment.type} (${accomplishment.year})` : '...'}}</h3>
     <v-form>
       <v-row>
         <v-col>
@@ -24,7 +28,14 @@
 export default {
   name: 'Accomplishment',
   props: {
+    list: Array,
     accomplishment: Object,
+  },
+  methods: {
+    deleteAccomplishment: function(){
+      const index = this.list.indexOf(this.accomplishment);
+      this.list.splice(index, 1);
+    }
   }
 }
 </script>

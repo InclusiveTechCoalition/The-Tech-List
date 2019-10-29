@@ -37,15 +37,23 @@
         </v-row>
       </v-container>
       <v-container>
-        <h2>Accomplishments</h2>
-        <v-row>
-          <Accomplishment v-for="item in model.accomplishment" v-bind:accomplishment="item"/>
-        </v-row>
-        <v-row>
-          <v-btn color="primary" fab @click.stop="addAccomplishment(this)">
-            <v-icon>mdi-pencil-outline</v-icon>
-          </v-btn>
-        </v-row>
+        <v-expansion-panels multiple="true" focusable="true">
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              <h2>Accomplishments</h2>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row>
+                <Accomplishment v-for="item in model.accomplishment" v-bind:accomplishment="item" v-bind:list="model.accomplishment"/>
+              </v-row>
+              <v-row>
+                <v-btn color="primary" small fab @click.stop="addAccomplishment()">
+                  <v-icon>mdi-pencil-outline</v-icon>
+                </v-btn>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
       </v-container>
     </v-form>
   </v-container>
@@ -73,7 +81,7 @@
           {text: 'other', value: DataModel.factoryPronoun('', '', '')},
         ]
       },
-      addAccomplishment: function (arg) {
+      addAccomplishment: function () {
         this.model.accomplishment.push(DataModel.factoryAccomplishment())
       }
     }
