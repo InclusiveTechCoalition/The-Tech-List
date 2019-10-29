@@ -92,6 +92,22 @@
               </v-row>
             </v-expansion-panel-content>
           </v-expansion-panel>
+          <!--Association-->
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              <h2>Associations</h2>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row>
+                <Association v-for="item in model.other_assocations" v-bind:data="item" v-bind:list="model.other_assocations"/>
+              </v-row>
+              <v-row>
+                <v-btn color="primary" small fab @click.stop="addAssociation()">
+                  <v-icon dark>mdi-plus-circle</v-icon>
+                </v-btn>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
         </v-expansion-panels>
       </v-container>
     </v-form>
@@ -102,6 +118,7 @@
   import Accomplishment from "./Accomplishment";
   import Education from "./Education";
   import Employment from "./Employment";
+  import Association from "./Association";
   import DataModel from '../services/DataModel';
 
   export default {
@@ -109,7 +126,8 @@
     components: {
       Accomplishment,
       Education,
-      Employment
+      Employment,
+      Association
     },
     data: () => ({
       model: DataModel.data,
@@ -132,6 +150,9 @@
       },
       addEmployment: function () {
         this.model.employment.push(DataModel.factoryEmployment())
+      },
+      addAssociation: function () {
+        this.model.other_assocations.push(DataModel.factoryAssociation())
       }
     }
   }
