@@ -7,27 +7,27 @@
       <v-expansion-panel-content>
         <v-row>
           <v-col>
-            <v-text-field label="Country (full official name)" placeholder="United States of America" v-model="country_full_name"></v-text-field>
+            <v-text-field label="Country (full official name)" placeholder="United States of America" v-model="data.country_full_name"></v-text-field>
           </v-col>
           <v-col>
-            <v-text-field label="Country (common name)" placeholder="America" v-model="country_common_name"></v-text-field>
+            <v-text-field label="Country (common name)" placeholder="America" v-model="data.country_common_name"></v-text-field>
           </v-col>
           <v-col>
-            <v-text-field label="Country (abbreviation)" placeholder="USA" v-model="country_abbreviation"></v-text-field>
+            <v-text-field label="Country (abbreviation)" placeholder="USA" v-model="data.country_abbreviation"></v-text-field>
           </v-col>
         </v-row>
         <v-row>
           <v-col>
-            <v-text-field label="Region Name" v-model="region"></v-text-field>
+            <v-text-field label="Region Name" v-model="data.region"></v-text-field>
           </v-col>
           <v-col>
-            <v-text-field label="Type of Region" placeholder="State, territory, etc" v-model="country_common_name"></v-text-field>
+            <v-text-field label="Type of Region" placeholder="State, territory, etc" v-model="data.country_common_name"></v-text-field>
           </v-col>
           <v-col>
-            <v-text-field label="Region (abbreviation)" v-model="country_abbreviation"></v-text-field>
+            <v-text-field label="Region (abbreviation)" v-model="data.country_abbreviation"></v-text-field>
           </v-col>
           <v-col>
-            <v-text-field label="City or metro area" v-model="metro_area"></v-text-field>
+            <v-text-field label="City or metro area" v-model="data.metro_area"></v-text-field>
           </v-col>
         </v-row>
       </v-expansion-panel-content>
@@ -39,13 +39,7 @@
   export default {
     name: "Location",
     props: {
-      country_full_name: '',
-      country_common_name: '',
-      country_abbreviation: '',
-      region: '',
-      region_description: '',
-      region_abbreviation: '',
-      metro_area: undefined
+      data: Object
     }
   }
 </script>

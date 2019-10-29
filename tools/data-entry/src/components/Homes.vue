@@ -17,22 +17,9 @@
         </template>
         <span>Copy</span>
       </v-tooltip>
-      {{(data.name) ? `${data.name} ${data.start_year ? `(${data.start_year})` : ''}` : '...'}}
+      {{(data.location.metro_area) ? `${data.location.metro_area} ${data.start_year ? `(${data.start_year})` : ''}` : '...'}}
     </h3>
     <v-form>
-      <v-row>
-        <v-col>
-          <v-text-field v-model="data.name" label="Group name"/>
-        </v-col>
-        <v-col>
-          <v-text-field v-model="data.type" label="Type of group"/>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col>
-          <v-textarea v-model="data.description" label="Details"/>
-        </v-col>
-      </v-row>
       <v-row>
         <v-col>
           <v-text-field label="Began (year)" v-model="data.start_year"/>
@@ -52,7 +39,7 @@
   import Location from "./Location";
 
   export default {
-    name: "Association",
+    name: "Employment",
     components: {
       Location
     },

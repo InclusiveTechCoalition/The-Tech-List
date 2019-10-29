@@ -1,7 +1,6 @@
 class DataModel {
   constructor() {
     this.data = {
-      valid: false,
       full_name: '',
       common_name: '',
       pronouns: this.factoryPronoun('she', 'her', 'hers'),
@@ -35,15 +34,15 @@ class DataModel {
       name: '',
       description: '',
       location: this.factoryLocation(),
-      start_year: 1901,
-      end_year: 1901
+      start_year: undefined,
+      end_year: undefined
     }
   }
 
   factoryHome() {
     return {
-      begin_year: 1901,
-      end_year: 1901,
+      start_year: undefined,
+      end_year: undefined,
       location: this.factoryLocation()
     }
   }
@@ -81,7 +80,7 @@ class DataModel {
   }
 
   serialize() {
-    return JSON.stringify(this.data);
+    return JSON.stringify(this.data, undefined, 2);
   }
 }
 

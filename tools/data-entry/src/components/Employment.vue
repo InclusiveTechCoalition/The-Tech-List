@@ -3,7 +3,7 @@
     <h3>
       <v-tooltip top>
         <template v-slot:activator="{ on }">
-          <v-btn color="warning" fab x-small v-on="on" @click.stop="deleteData()">
+          <v-btn color="warning" icon v-on="on" @click.stop="deleteData()">
             <v-icon>mdi-close-circle</v-icon>
           </v-btn>
         </template>
@@ -11,7 +11,7 @@
       </v-tooltip>
       <v-tooltip top>
         <template v-slot:activator="{ on }">
-          <v-btn color="primary" fab x-small v-on="on" @click.stop="copyData()">
+          <v-btn color="primary" icon v-on="on" @click.stop="copyData()">
             <v-icon>mdi-plus-circle-multiple-outline</v-icon>
           </v-btn>
         </template>
@@ -37,7 +37,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <Location v-bind="data.location"></Location>
+        <Location v-bind:data="data.location"></Location>
       </v-row>
     </v-form>
   </v-container>

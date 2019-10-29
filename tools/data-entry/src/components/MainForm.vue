@@ -1,6 +1,15 @@
 <template>
   <v-container>
-    <h1>Add <em class="underline">{{model.common_name ? model.common_name : 'someone'}}</em> to the Tech List</h1>
+    <v-row>
+      <v-col cols="8">
+        <h1>Add <em class="underline">{{model.common_name ? model.common_name : 'someone'}}</em> to the Tech List</h1>
+      </v-col>
+      <v-col cols="4" align-self="end" class="column-right">
+        <v-btn raised dark color="primary" @click.stop="download()">
+          <v-icon>mdi-file-download</v-icon> Download
+        </v-btn>
+      </v-col>
+    </v-row>
     <v-form v-model="valid">
       <v-container>
         <v-row>
@@ -43,7 +52,7 @@
         </v-row>
       </v-container>
       <v-container>
-        <v-expansion-panels multiple="true" focusable="true">
+        <v-expansion-panels :multiple="true" :focusable="true">
           <!--Accomplishments-->
           <v-expansion-panel>
             <v-expansion-panel-header>
@@ -51,10 +60,11 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <v-row>
-                <Accomplishment v-for="item in model.accomplishment" v-bind:accomplishment="item" v-bind:list="model.accomplishment"/>
+                <Accomplishment v-for="item in model.accomplishment" v-bind:accomplishment="item"
+                                v-bind:list="model.accomplishment"/>
               </v-row>
               <v-row>
-                <v-btn color="primary" small fab @click.stop="addAccomplishment()">
+                <v-btn color="primary" icon @click.stop="addAccomplishment()">
                   <v-icon dark>mdi-plus-circle</v-icon>
                 </v-btn>
               </v-row>
@@ -70,7 +80,7 @@
                 <Education v-for="item in model.education" v-bind:education="item" v-bind:list="model.education"/>
               </v-row>
               <v-row>
-                <v-btn color="primary" small fab @click.stop="addEducation()">
+                <v-btn color="primary" icon @click.stop="addEducation()">
                   <v-icon dark>mdi-plus-circle</v-icon>
                 </v-btn>
               </v-row>
@@ -86,7 +96,7 @@
                 <Employment v-for="item in model.employment" v-bind:data="item" v-bind:list="model.employment"/>
               </v-row>
               <v-row>
-                <v-btn color="primary" small fab @click.stop="addEmployment()">
+                <v-btn color="primary" icon @click.stop="addEmployment()">
                   <v-icon dark>mdi-plus-circle</v-icon>
                 </v-btn>
               </v-row>
@@ -99,10 +109,27 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <v-row>
-                <Association v-for="item in model.other_assocations" v-bind:data="item" v-bind:list="model.other_assocations"/>
+                <Association v-for="item in model.other_assocations" v-bind:data="item"
+                             v-bind:list="model.other_assocations"/>
               </v-row>
               <v-row>
-                <v-btn color="primary" small fab @click.stop="addAssociation()">
+                <v-btn color="primary" icon @click.stop="addAssociation()">
+                  <v-icon dark>mdi-plus-circle</v-icon>
+                </v-btn>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <!--Homes-->
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              <h2>Homes</h2>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row>
+                <Home v-for="item in model.home" v-bind:data="item" v-bind:list="model.home"/>
+              </v-row>
+              <v-row>
+                <v-btn color="primary" icon @click.stop="addHome()">
                   <v-icon dark>mdi-plus-circle</v-icon>
                 </v-btn>
               </v-row>
@@ -119,7 +146,9 @@
   import Education from "./Education";
   import Employment from "./Employment";
   import Association from "./Association";
+  import Home from "./Homes";
   import DataModel from '../services/DataModel';
+  import {saveAs} from 'file-saver'
 
   export default {
     name: 'MainForm',
@@ -127,7 +156,8 @@
       Accomplishment,
       Education,
       Employment,
-      Association
+      Association,
+      Home
     },
     data: () => ({
       model: DataModel.data,
@@ -153,6 +183,14 @@
       },
       addAssociation: function () {
         this.model.other_assocations.push(DataModel.factoryAssociation())
+      },
+      addHome: function () {
+        this.model.home.push(DataModel.factoryHome())
+      },
+      download: function () {
+        const data = DataModel.serialize();
+        const blob = new Blob([data], {type: 'text/plain;charset=utf-8'})
+        saveAs(blob, `${this.model.common_name}.json`);
       }
     }
   }
@@ -181,5 +219,9 @@
   em.underline {
     text-decoration: underline;
     font-style: inherit;
+  }
+
+  .column-right {
+    text-align: end;
   }
 </style>
