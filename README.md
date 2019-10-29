@@ -8,6 +8,9 @@ The Tech List is a list of notable historical figures who have shaped the field 
 
 ## Let's Collaborate
 Anyone is free to contribute to this project! Be mindful of our [Code of Conduct.](https://www.womenwhocode.com/codeofconduct)
+* You do not need to be a current member of Women Who Code DFW to contribute
+* If you join our Slack, join #Hacktoberfest for communications in real time with other contributors!
+* Make sure you [register for Hacktoberfest](https://hacktoberfest.digitalocean.com/) before getting started.
 
 ## Phase 1 - Building the Data Together
 From October 1st to October 11th, we'll be accepting PRs into our [data repository.](https://github.com/WWCodeDFW/The-Tech-List/tree/master/People) This will be the data that underlies all Tech List projects.
