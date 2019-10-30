@@ -1,0 +1,103 @@
+{
+  "full_name": "Katherine L. Bouman",
+  "common_name": "Katie Bouman",
+  "pronouns": {
+    "subject": "she",
+    "object": "her",
+    "possessive": "hers"
+  },
+  "birth_year": "1989",
+  "death_year": null,
+  "description": "Katie Bouman lead the research team on the Event Horizon telescope which used advanced imaging and signal processing algorithms to combine measurements from numerous radio telescopes all around the Earth to directly observe the super massive black hole in the M87 galaxy.",
+  "education": [
+    {
+      "institution": "University of Michigan",
+      "location": {
+        "country_full_name": "United States of America",
+        "country_common_name": "America",
+        "country_abbreviation": "USA",
+        "region": "Michigan",
+        "region_description": "State",
+        "region_abbreviation": "MA"
+      },
+      "field_of_study": "Electrical Engineering",
+      "end_year": "2011",
+      "degree_title": "Bachelor of Science"
+    },
+    {
+      "institution": "Massachusetts Institute of Technology",
+      "location": {
+        "country_full_name": "United States of America",
+        "country_common_name": "America",
+        "country_abbreviation": "USA",
+        "region": "Massachusetts",
+        "region_description": "State",
+        "region_abbreviation": "MA"
+      },
+      "field_of_study": "Electrical Engineering and Computer Science",
+      "end_year": "2013",
+      "degree_title": "Master of Science"
+    },
+    {
+      "institution": "Massachusetts Institute of Technology",
+      "location": {
+        "country_full_name": "United States of America",
+        "country_common_name": "America",
+        "country_abbreviation": "USA",
+        "region": "Massachusetts",
+        "region_description": "State",
+        "region_abbreviation": "MA"
+      },
+      "field_of_study": "Electrical Engineering and Computer Science",
+      "end_year": "2017",
+      "degree_title": "PhD"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Harvard University",
+      "location": {
+        "country_full_name": "United States of America",
+        "country_common_name": "America",
+        "country_abbreviation": "USA",
+        "region": "Massachusetts",
+        "region_description": "State",
+        "region_abbreviation": "MA",
+        "metro_area": "Boston"
+      },
+      "job": "Postdoctoral research fellow",
+      "start_year": "2013",
+      "end_year": "2019"
+    },
+    {
+      "company": "California Institute of Technology",
+      "location": {
+        "country_full_name": "United States of America",
+        "country_common_name": "America",
+        "country_abbreviation": "USA",
+        "region": "California",
+        "region_description": "State",
+        "region_abbreviation": "CA",
+        "metro_area": "Las Angeles"
+      },
+      "job": "Assistant professor",
+      "start_year": "2019"
+    }
+  ],
+  "accomplishment": [
+    {
+      "type": "Scientific Discovery",
+      "description": "As part of the Event Horizon telescope program, Katie lead the development of the algorithms used to combine and process signals from numerous radio telescopes. In April 2019, the telescope achieved the first direct observation of a black hole and the accretion disk surrounding it. The images of the black hole—in the M87 galaxy—made international news when they were released. The ability to closely observe the areas around black holes is expected to be vital in the study of the nature of space, gravity, and the refining our understanding of general relativity.",
+      "short_description": "Observed M87 black hole with Event Horizon telescope",
+      "year": "2019"
+    },
+    {
+      "type": "Award",
+      "description": "Katie was awarded the prize for her work on the Event Horizon project",
+      "short_description": "Breakthrough Prize for Fundamental Physics",
+      "year": "2020"
+    }
+  ],
+  "other_assocations": [],
+  "home": []
+}

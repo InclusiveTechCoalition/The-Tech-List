@@ -21,7 +21,7 @@
             <v-text-field label="Region Name" v-model="data.region"></v-text-field>
           </v-col>
           <v-col>
-            <v-text-field label="Type of Region" placeholder="State, territory, etc" v-model="data.country_common_name"></v-text-field>
+            <v-text-field label="Type of Region" placeholder="State, territory, etc" v-model="data.region_description"></v-text-field>
           </v-col>
           <v-col>
             <v-text-field label="Region (abbreviation)" v-model="data.country_abbreviation"></v-text-field>
