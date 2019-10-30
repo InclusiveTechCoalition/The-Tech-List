@@ -47,7 +47,7 @@
             <v-text-field v-model="model.birth_year" label="Birth Year"/>
           </v-col>
           <v-col>
-            <v-text-field v-model="model.birth_year" label="Death Year"/>
+            <v-text-field v-model="model.death_year" label="Death Year"/>
           </v-col>
         </v-row>
       </v-container>
